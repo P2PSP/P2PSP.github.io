@@ -4,18 +4,52 @@ layout: default
 
 <h1>Peer-to-Peer Straightforward Protocol</h1>
 
-<div>
-<p>The P2PSP is an application layer protocol for the real-time streaming of multimedia content over the Internet, i.e., where the users playback the stream in a synchronized way. It can be used to build a variety of live streaming services that ranges from small hangouts to large IPTV systems. Unlike in the traditional CS (Client/Server) and CDN (Content Delivery Network) based video streaming, P2P peers contribute with their upload bandwidth to the system. For this reason, in general, P2P systems are much more scalable than those based on the client/server architecture.</p>
+  <div class="shortcuts">
+    <h2>Shortcuts</h2>
+    <div class="shortcut">
+      <center>
+	<a title="Ideas GSoC" href="{{page.baseurl}}/2018/01/11/gsoc-ideas-page.html">
+	  <img src="/images/gsoc16-square.png" alt="Google Summer of Code" width="105px" height="105px" />
+	</a>
+	<br />
+	<strong><a title="Ideas GSoC 18" href="{{page.baseurl}}/2018/01/11/gsoc-ideas-page.html" rel="alternate">Ideas Page</a></strong>
+      </center>
+    </div>
+    <div class="shortcut">
+      <center>
+	<a href=""><img src="/images/task.png" alt="Application Template" width="100px" height="100px"></a><br>
+	<strong><a href="">Template</a></strong>
+      </center>
+    </div>
+    <div class="shortcut">
+      <center><a href=""><img src="/images/presentation.png" alt="Slides" width="100px" height="100px"></a><br>
+	<strong><a href="">Slides</a></strong>
+      </center>
+    </div>
+    <div class="shortcut">
+      <center><a href="https://gitter.im/orgs/P2PSP/rooms"><img src="/images/gitter.jpg" alt="Slides" width="100px" height="100px"></a><br>
+	<strong><a href="https://gitter.im/orgs/P2PSP/rooms">P2PSP on Gitter</a></strong>
+      </center>
+    </div>
+    <div class="shortcut"><center><a href="https://github.com/P2PSP"><img src="/images/github.png" alt="Slides" width="100px" height="100px"></a><br>
+	<strong><a href="https://github.com/P2PSP">P2PSP on GitHub</a></strong>
+      </center>
+    </div>
+</div>
 
-<p>P2P video streaming technology has been an intensive research field of in the last years and several proposals have appeared. P2PSP is another proposal to add to a long list of solutions. However, before describe it, we would highlight some of its features making it attractive, specially for the open-source community:</p>
-<ol>
-<li>The P2PSP is not aware of the broadcasted content, the bit-rate, the format, etc. You can transmit any type of stream you need without having to modify the protocol at all.</li>
-<li>The P2PSP has an application layered architecture. The number of layers used depends on the final requirements.</li>
-<li>The most basic layer (the broadcasting layer) is simple enough to run the peer process in systems with very low computing resources (for instance, to run several threads or to fork processes is not needed). The rest of layers add functionality to the protocol, such as parallel streaming, system integrity and information privacy. Of course, layers can be modified or new ones can be added to fulfill the requirements, always keeping the interface between them.</li>
-<li>If native IP multicast is available (even locally, as happen in most of the local networks), P2PSP can use it, having the same performance as IP multicast.</li>
-<li>Under unannounced peer churn, the P2PSP provides methods for error concealment in the received stream.</li>
-<li>Peers can be hosted in private networks, even if they are behind symmetric NATs.</li>
-<li>P2PSP provides Multiresolution (both, spatially and temporally) and bandwidth-adaptive streaming services by using simulcast, scalable video coding and multiple description video coding.</li>
-</ol>
-You can know all details of the protocol in <a href="https://github.com/P2PSP/core/tree/master/doc">P2PSP Documentation</a>
+<div class="space-top">
+  <h2>What is P2PSP?</h2>
+  <p>The P2PSP is an application layer protocol for the real-time streaming of multimedia content over the Internet, i.e., where the users playback the stream in a synchronized way. It can be used to build a variety of live streaming services that ranges from small hangouts to large IPTV systems. Unlike in the traditional CS (Client/Server) and CDN (Content Delivery Network) based video streaming, P2P peers contribute with their upload bandwidth to the system. For this reason, in general, P2P systems are much more scalable than those based on the client/server architecture.</p>
+
+  <p>P2P video streaming technology has been an intensive research field of in the last years and several proposals have appeared. P2PSP is another proposal to add to a long list of solutions. However, before describe it, we would highlight some of its features making it attractive, specially for the open-source community:</p>
+  <ol>
+    <li>The P2PSP is not aware of the broadcasted content, the bit-rate, the format, etc. You can transmit any type of stream you need without having to modify the protocol at all.</li>
+    <li>The P2PSP has an application layered architecture. The number of layers used depends on the final requirements.</li>
+    <li>The most basic layer (the broadcasting layer) is simple enough to run the peer process in systems with very low computing resources (for instance, to run several threads or to fork processes is not needed). The rest of layers add functionality to the protocol, such as parallel streaming, system integrity and information privacy. Of course, layers can be modified or new ones can be added to fulfill the requirements, always keeping the interface between them.</li>
+    <li>If native IP multicast is available (even locally, as happen in most of the local networks), P2PSP can use it, having the same performance as IP multicast.</li>
+    <li>Under unannounced peer churn, the P2PSP provides methods for error concealment in the received stream.</li>
+    <li>Peers can be hosted in private networks, even if they are behind symmetric NATs.</li>
+    <li>P2PSP provides Multiresolution (both, spatially and temporally) and bandwidth-adaptive streaming services by using simulcast, scalable video coding and multiple description video coding.</li>
+  </ol>
+  You can know all details of the protocol in <a href="https://github.com/P2PSP/core/tree/master/doc">P2PSP Documentation</a>
 </div>

@@ -50,7 +50,7 @@ header {
   align-items: center;
 }
 main {
-  padding: 0 15px;
+  padding: 10vh 15px;
   max-width: $content-width;
   margin: 0 auto;
 }
@@ -72,7 +72,7 @@ aside {
   width: 100%;
   z-index: 2;
   border-bottom: 1px solid lighten($light, 30%);
-  box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
+  box-shadow: 0px 5px 2px RGBA(73, 79, 119, 1);
   nav {
     float: right;
     max-width: 800px;
@@ -114,4 +114,14 @@ footer {
 }
 .logo{
     float: left;
+    margin-top: 2px;
+}
+.shortcut{
+    width: 150px;
+    height: 140px;
+    float: left;
+}
+.space-top{
+    padding-top: 2vh;
+    clear: left;
 }
