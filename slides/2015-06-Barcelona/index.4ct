@@ -1,0 +1,20 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{2}{x2-10001}{QQ2-2-1}{\href  {http://www.p2psp.org/en/}{P2PSP (Peer-to-Peer ``Straightforward'' Protocol)}}}{4}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{3}{x3-20002}{QQ2-3-2}{\href  {https://en.wikipedia.org/wiki/IPTV}{IP-TV} over P2PSP}}{5}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{4}{x4-30003}{QQ2-4-3}{Designed as a collection of Sets of Rules}}{6}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{5}{x5-40004}{QQ2-5-4}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu4.xht#x11-90004.4}{IP Mulicast Set (IMS) of Rules}}}{8}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{6}{x6-50005}{QQ2-6-5}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu5.xht#x12-100004.5}{Data Broadcasting Set (DBS) of Rules}}}{9}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{7}{x7-60005}{QQ2-7-6}{\href  {https://en.wikipedia.org/wiki/Network_address_translation}{NAT: Network Address Translation}}}{10}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{8}{x8-70006}{QQ2-8-7}{Full-cone Nat Set (FNS) of Rules}}{11}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{9}{x9-80007}{QQ2-9-8}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu6.xht#x14-110004.6}{Adaptive Chunk-rate Set (ACS) of Rules}}}{12}\relax 
+\doTocEntry\tocsection{8}{\csname a:TocLink\endcsname{10}{x10-90008}{QQ2-10-9}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu7.xht#x15-120004.7}{Lost chunks Recovery Set (LRS) of Rules}}}{13}\relax 
+\doTocEntry\tocsection{9}{\csname a:TocLink\endcsname{11}{x11-100009}{QQ2-11-10}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu12.xht#x20-170004.12}{End-point Masquerading Set (EMS) of Rules}}}{14}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{12}{x12-110009}{QQ2-12-11}{\href  {http://en.wikipedia.org/wiki/Network_address_translation}{Full-cone NATs versus Restricted-cone NATs}}}{15}\relax 
+\doTocEntry\tocsection{10}{\csname a:TocLink\endcsname{13}{x13-1200010}{QQ2-13-12}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu9.xht#x18-140004.9}{Restricted (-Cone) NAT Traversal Set (RTS) of Rules}}}{16}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{14}{x14-1300010}{QQ2-14-13}{\href  {http://en.wikipedia.org/wiki/Network_address_translation}{Cone NATs versus Symmetric NATs}}}{17}\relax 
+\doTocEntry\tocsection{11}{\csname a:TocLink\endcsname{15}{x15-1400011}{QQ2-15-14}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu9.xht#x18-140004.9}{Symmetric NAT Traversal Set (STS) of Rules}}}{18}\relax 
+\doTocEntry\tocsection{12}{\csname a:TocLink\endcsname{16}{x16-1500012}{QQ2-16-15}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu11.xht#x20-160004.11}{Content Integrity Set (CIS)}}}{19}\relax 
+\doTocEntry\tocsection{13}{\csname a:TocLink\endcsname{17}{x17-1600013}{QQ2-17-16}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu12.xht#x21-180004.12}{Data Privacy Set (DPS)}}}{20}\relax 
+\doTocEntry\tocsection{14}{\csname a:TocLink\endcsname{18}{x18-1700014}{QQ2-18-17}{\href  {http://www.p2psp.org/en/p2psp-protocol?cap=indexsu11.xht#x20-160004.11}{Multi-Channel Set (MCS)}}}{21}\relax 
+\doTocEntry\toclikepart{}{\csname a:TocLink\endcsname{19}{x19-1800014}{QQ2-19-18}{}}{22}\relax 
+\par 
