@@ -125,3 +125,23 @@ footer {
     padding-top: 2vh;
     clear: left;
 }
+pre.highlight {
+    word-wrap: normal;
+    overflow-x: auto;
+    white-space: pre;
+}
+
+@media (max-width: 480px) {
+    .logo{
+	float: none;
+    }
+    .container{
+	text-align: center;
+    }
+    aside nav{
+	float: none;
+    }
+    main{
+	padding: 18vh 15px;
+    }
+}
