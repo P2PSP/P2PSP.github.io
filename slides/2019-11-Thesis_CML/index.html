@@ -1,0 +1,1281 @@
+<!doctype html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>PhD Thesis - Efficiency and Security in Peer-to-Peer Streaming Protocols
+	</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+	<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
+
+	<!-- Custom Style -->
+	<style>
+	 .reveal h1 { font-size: 45px; color: #2f6195; margin: 5px; }
+	 .reveal h2 { font-size: x-large; margin: 5px; }
+	 .reveal h3 { font-size: large; margin: 10px; }
+	 .reveal h4 { font-size: small; }
+	 .reveal section { font-size: x-large; }
+	 .reveal .slide-number { background-color: rgba(0, 0, 0, 0); margin-bottom: 3.5vh; font-weight: bold; }
+	 .reveal .slide-number a { font-size: xx-large; color: #2f6195; }
+	 .reveal section img { background: none; border: none; box-shadow: none; }
+	 .reveal .controls .controls-arrow {margin-bottom: 20px;}
+         .reveal .progress { background: rgba(0, 0, 0, 0.3); height: 10px; color: #2f6195; }
+	 .reveal section img { margin: 0; }
+	 .reveal .blue { color: #2f6195; }
+	 .reveal .black { color: #000; }
+	 .reveal p { margin: 0; }
+	 .reveal a {color: #2f6195;}
+	 .reveal blockquote {font-size: xx-large;}
+	 .reveal .small { font-size: small; }
+	 .reveal .formula { font-size: 15px; }
+	 .ptag { display: none; }
+	 .off { color: #9c9c9c; }
+	 .off h2 { color: #9c9c9c; }
+	 .red { background:red; color: white; font-weight: bold; }
+	 .green { background: green; color: white; font-weight: bold; }
+	</style>
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+	 var link = document.createElement( 'link' );
+	 link.rel = 'stylesheet';
+	 link.type = 'text/css';
+	 link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+	 document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+    </head>
+    <body>
+	<div class="reveal">
+	    <div class="slides">
+		<!-- Cover -->
+		<section data-state="no-title-footer">
+		    PhD Thesis
+		    <h1 class="black">Efficiency and Security in Peer-to-Peer Streaming Protocols
+		    </h1>
+		    <img src="images/logoual.png" alt="ual" height="180">
+		    <br />
+		    <h3 style="margin:0;">Doctorado en Informática (RD99/11)
+		    </h3>
+		    <h4>Department of Informatics
+			<br />
+			University of Almería
+			<br /> Spain
+		    </h4>
+		    Author
+		    <h2>Cristóbal Medina López
+		    </h2>
+		    Supervisors
+		    <h2>Dr. Leocadio González Casado
+			<br/>
+			Dr. Vicente González Ruiz
+		    </h2>
+		    <p>November 11, 2019
+		    </p>
+		</section>
+
+		<!-- Preface -->
+		<section data-state="no-title-footer">
+		    <h1>Internet has changed the way we communicate</h1>
+		    <img src="images/internetspeed.svg" alt="internet speed" height="450">
+		    <p class="small">Source: <a href="https://www.speedtest.net/reports/">https://www.speedtest.net/reports/</a></p>
+		</section>
+
+		<section data-state="no-title-footer">
+		    <h1>High quality Streaming to the largest number of users</h1>
+		    <p>with lowest cost in the shortest possible time</p>
+		    <img src="images/webcamstreaming.svg" alt="one to many streaming" height="400">
+		    
+		</section>
+
+		<!-- Table of Content -->
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li>
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<!-- Table of Content -->
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li>
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Most Popular Solutions</h1>
+		    <h2>Client-Server Model</h2>
+		    <img src="images/clientservermodel.svg" alt="one to many streaming" height="450">
+		    <p class="fragment red">It is not scalable without replication</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Most Popular Solutions</h1>
+		    <h2>Content Delivery Networks</h2>
+		    <img src="images/cdnmodel.svg" alt="cdn streaming" height="500">
+		    <p class="fragment red">Increase in the cost of the infrastructure</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Alternative Solution</h1>
+		    <h2>Peer-to-Peer Networks</h2>
+		    <img src="images/p2pmodel.svg" alt="P2P Streaming" height="450">
+		    <p class="fragment red">Latency, Security, Network Limitations, Client Resources</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Peer-to-Peer Networks</h1>
+		    <h2 style="color:red;">Problems: Latency</h2>
+		    <img src="images/p2pmodel-latency.svg" alt="P2P Latency problems" height="450">
+		    <p>Because of its distributed approach, sometimes there is a considerable delay from
+			when the content is generated until users play it.</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+		
+		<section>
+		    <h1>Peer-to-Peer Networks</h1>
+		    <h2 style="color:red;">Problems: Security</h2>
+		    <img src="images/p2pmodel-security.svg" alt="P2P Security problems" height="450">
+		    <p>The anonymity provided by most P2P networks leads to malicious
+			peers attacking in different ways: denial of service attacks, poisoning of
+			content, avoiding sharing their resources, etc.</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Peer-to-Peer Networks</h1>
+		    <h2 style="color:red;">Problems: Network Limitations</h2>
+		    <img src="images/p2pmodel-limitations.svg" alt="P2P Network limitation problems" height="450">
+		    <p>Limitations in networks caused by peers behind NATs and firewalls.</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Peer-to-Peer Networks</h1>
+		    <h2 style="color:red;">Problems: Client Resources</h2>
+		    <img src="images/p2pmodel-resources.svg" alt="P2P client resources problems" height="450">
+		    <p>The complexity of most of the P2P applications, result in they can not be executed on
+			some types of devices. Especially in those with low resources.</p>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Research Questions</h1>
+		    <blockquote class="fragment">Is it possible to design a P2P protocol which reduce the communication cost to the maximum?</blockquote>
+		    <blockquote class="fragment">How could we detect and expel (or force to contribute) to Malicious Peers?</blockquote>
+		    <blockquote class="fragment">How could we increase the chances two peers perform a successful communication?</blockquote>
+		    <blockquote class="fragment">Would our protocol be straighforward enough to be run on low-resource devices?</blockquote>
+		    <div class="ptag"><b>Introduction</b> P2PSP Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Pull-Model vs Push-Model</h1>
+		    <h2>Goal: Reduce latency by keeping it as simple as possible</h2>
+		    <img src="images/pullpushmodel.svg" alt="Pull vs Push" height="450"/>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <img src="images/p2pspsf.png" alt="P2PSP protocol" height="150" /><br />
+		    <ul>
+			<li class="fragment">
+			    <h2><a href="http://www.p2psp.org/en/">P2PSP (Peer to Peer Straightforward Protocol)</a> is an open application-layer protocol for the real-time streaming of media content over a peer-to-peer overlay.</h2>
+			</li>
+			<li class="fragment">	
+			    <h2>P2PSP is based on a push-based fully connected mesh scheme where every peer is connected with each other.</h2>
+			</li>
+			<li class="fragment">
+			    <h2>An open-source (<a href="https://www.gnu.org/copyleft/gpl.html">GNU GPL v3</a>) implementation is available on <a href="https://github.com/p2psp">GitHub</a>.
+			      <center><a href="https://summerofcode.withgoogle.com/"><img style="margin-top:20px;" src="images/gsoc-banner.jpg" height="80px"/></a>
+				<p style="color:#87868b;">2015 - 2016 - 2017 - 2018</p>
+				</center>
+			    </h2>
+			</li>
+		    </ul>
+		</section>
+		
+		<!-- animation --> 
+		<section data-transition=none>
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+		
+		<section data-transition=none>
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-1.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+   		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+		
+		<section data-transition=none>
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-2.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+		
+		<section data-transition=none>		    
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-2-2.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>    
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-2-3.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>    
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-2-4.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>    
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-3.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <h3>3. Each peer sends its chunks to each other in order to ensure that everyone has the whole stream.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>    
+		    <h1>How does a P2PSP system work?</h1>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <h2>A P2PSP Team</h2>
+		    <img src="images/team-modern-4.svg" alt="A P2PSP Team" align="left" height="500" style="margin:5px"/>
+		    <h3 style="margin-top: 100px;">1. The video is sent in real time to the Splitter.</h3>
+		    <h3>2. The Splitter divides the stream in several chunks and every chunk is sent to one different peer.</h3>
+		    <h3>3. Each peer sends its chunks to each other in order to ensure that everyone has the whole stream.</h3>
+		    <h3>4. Peers send the stream to the player.</h3>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+ 		</section>
+		<!-- end of animation -->
+
+		<section>
+		    <h1>Modular Design</h1>
+		    <p class="off" style="text-align: left;"><b>LBS (Load Balancing Set)</b>: P2PSP supposes that there is a collection of channels that are broadcasted in parallel.</p>
+		    <p style="text-align: left;"><b>DBS (Data Broadcasting Set)</b>: Designed to be efficient in transmitting a data-stream from a splitter node to peers.</p>
+		    <p class="off" style="text-align: left;"><b>IMS (IP Multicast Set)</b>: Peers in the same local network communicate using IPM group address and port, if available.</p>
+		    <p class="off" style="text-align: left;"><b>MRS (Massively-lost chunk Recovery Set)</b>: A massively-lost chunk occurs when a chunk is lost in its way from the splitter to a peer.</p>
+		    <p class="off" style="text-align: left;"><b>ACS (Adaptive Capacity Set)</b>: It relaxes the peer’s upload requirements imposed by DBS.</p>
+		    <p style="text-align: left;"><b>NTS (NAT Traversal Set)</b>: It provides peer connectivity for some NAT configurations where DBS can not establish a direct peer communication.</p>
+		    <p class="off" style="text-align: left;"><b>MCS (Multi-Channel Set)</b>: Scalable Video Coding compatibility.</p>
+		    <p style="text-align: left;"><b>CIS (Content Integrity Set)</b>: The main goal of this set of rules is to face pollution attacks.</p>
+		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issue</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p>Pollution attacks consist of a peer or a set of peers modifying the content of the stream.</p>
+		    <p>Can be done in different ways.</p>
+		</section>
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>Persistent attack</strong>: an attacker poisons every chunk received from the splitter and sends them to the entire team.</p>
+		    <img src="images/persistent-attack.svg" alt="Persistent Attack" height="500" style="margin:5px"/>
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>On-Off attack</strong>: the attacker only poisons some chunks but not others.</p>
+		    <img src="images/on-off-attack.svg" alt="On-Off Attack" height="500" style="margin:5px"/>		
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>Selective attack</strong>: poisoning chunks intended for only one peer or a small subset of peers.</p>
+		    <img src="images/selective-attack.svg" alt="Selective Attack" height="500" style="margin:5px"/>
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>Collaborative attack</strong>: several attackers may collaborate to produce Selective and On-off attacks on a large set of peers.</p>
+		    <img src="images/collaborative-attack.svg" alt="Collaborative Attack" height="500" style="margin:5px"/>
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>Hand-wash attack</strong>: leaving the team and returning to continue the attack with another alias.</p>
+		    <img src="images/hand-wash-attack.svg" alt="Hand-wash Attack" height="500" style="margin:5px"/>	
+		</section>
+
+		<section>
+		    <h1>Pollution Attacks</h1>
+		    <p><strong>Bad-mouth attack</strong>: blaming other regular peers of sending poisoned chunks or not sending chunks.</p>
+		    <img src="images/bad-mouth-attack.svg" alt="Bad-mouth Attack" height="460" style="margin:5px"/>
+		    <p>It produces false-positives and false-negatives on reputation systems</p>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Security</h2>
+			    <ul>
+				<li class="off">Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li class="off">Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img id="strpe" src="images/strpe.svg" alt="STrPe" align="left" height="480" style="margin:5px"/> <br />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+
+		<!-- animation -->
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img  src="images/strpe-1.svg" alt="STrPe" align="left" height="480" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b> Only the splitter knows who the TPs in the team are.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img  src="images/strpe-2.svg" alt="STrPe" align="left" height="480" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b> Only the splitter knows who the TPs in the team are.</h3>
+		    <h3><b>2.</b> Each TP creates a hash for each chunk, including the chunk number and the endpoint of the source and sends it to the splitter.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img  src="images/strpe-3.svg" alt="STrPe" align="left" height="480" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b> Only the splitter knows who the TPs in the team are.</h3>
+		    <h3><b>2.</b> Each TP creates a hash for each chunk, including the chunk number and the endpoint of the source and sends it to the splitter.</h3>
+		    <h3><b>3.</b> The Splitter checks whether the chunks have been altered.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img  src="images/strpe-4.svg" alt="STrPe" align="left" height="480" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b> Only the splitter knows who the TPs in the team are.</h3>
+		    <h3><b>2.</b> Each TP creates a hash for each chunk, including the chunk number and the endpoint of the source and sends it to the splitter.</h3>
+		    <h3><b>3.</b> The Splitter checks whether the chunks have been altered.</h3>
+		    <h3><b>4.</b> The splitter knows the peer in charge of relaying a given chunk.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+		
+		<section data-transition=none>
+  		    
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2>How does it work?</h2>
+		    <img  src="images/strpe-5.svg" alt="STrPe" align="left" height="480" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b> Only the splitter knows who the TPs in the team are.</h3>
+		    <h3><b>2.</b> Each TP creates a hash for each chunk, including the chunk number and the endpoint of the source and sends it to the splitter.</h3>
+		    <h3><b>3.</b> The Splitter checks whether the chunks have been altered.</h3>
+		    <h3><b>4.</b> The splitter knows the peer in charge of relaying a given chunk.</h3>
+		    <h3><b>5.</b> The attacker is expelled from the team.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+ 		</section>
+		<!-- end of animation -->
+
+		<section>
+		    <h1>Strategy based on Trusted Peers</h1>
+		    <h2><b>Problems:</b></h2>
+		    <ul>
+			<li class="fragment">
+			    <P>Peers don't know if they are being attacked.</P>
+			</li>
+			<li class="fragment">
+			    <P>If an attacker knows who the trusted peers are the system is completely vulnerable to <b><span style="color:red;">Selective Attacks</span></b>.</P>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<!-- animation -->
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds-1.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b>When peers join the team they receive the public key of the splitter.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds-2.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b>When peers join the team they receive the public key of the splitter.</h3>
+		    <h3><b>2.</b>For each chunk, the splitter sends a message like this:</h3>
+		    <p class="formula">$\{chunk, nChunk, dst, S priv (H(chunk + nChunk + dst))\}$</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds-3.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b>When peers join the team they receive the public key of the splitter.</h3>
+		    <h3><b>2.</b>For each chunk, the splitter sends a message like this:</h3>
+		    <p class="formula">$\{chunk, nChunk, dst, S priv (H(chunk + nChunk + dst))\}$</p>
+		    <h3><b>3.</b>The peers verify <i>dst</i> and check if the hash value is correct.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds-4.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>	
+		    <h3 style="margin-top: 80px;"><b>1.</b>When peers join the team they receive the public key of the splitter.</h3>
+		    <h3><b>2.</b>For each chunk, the splitter sends a message like this:</h3>
+		    <p class="formula">$\{chunk, nChunk, dst, S priv (H(chunk + nChunk + dst))\}$</p>
+		    <h3><b>3.</b>The peers verify <i>dst</i> and check if the hash value is correct.</h3>
+		    <h3><b>4.</b>The splitter periodically requests the list of removed peers to the TP.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1>
+		    <h3 style="text-align: justify;">It has been designed to mitigate the Selective attack and to identify poisoned chunks by using digital signatures. The behavior rules are:</h3>
+		    <img src="images/strpeds-5.svg" alt="STrPe-DS" align="left" height="440" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b>When peers join the team they receive the public key of the splitter.</h3>
+		    <h3><b>2.</b>For each chunk, the splitter sends a message like this:</h3>
+		    <p class="formula">$\{chunk, nChunk, dst, S priv (H(chunk + nChunk + dst))\}$</p>
+		    <h3><b>3.</b>The peers verify <i>dst</i> and check if the hash value is correct.</h3>
+		    <h3><b>4.</b>The splitter periodically requests the list of removed peers to the TP.</h3>
+		    <h3><b>5.</b>Peers removed by any TP are directly expelled by the splitter after a random time.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<!-- end of animation -->
+		
+		<section>
+		    <h1>Strategy based on Trusted Peers and Digital Signatures</h1><br />
+		    <ul>
+			<li class="fragment">
+		    	    <h2>Can trusted peers expel the bad guys by following these basic rules?</h2>
+			    <center><img id="nonrepudiation" src="images/non-repudiation.svg" alt="Non-repudiation" height="300" style="margin:5px"/></center>
+			</li>
+			<br />
+	    	    </ul>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Experimental results</h1>
+		    <h2>Results obtained by simulation <a href="https://github.com/P2PSP/war-games">[war-games]</a></h2>
+		    <p>Persistent, Selective and Collaborative Attack</p>
+		    <img src="images/experiments.png" alt="experiments" height="450" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Experimental results</h1>
+		    <img src="images/results.png" alt="experiments" height="520" style="margin:5px"/>
+		    <p class="red fragment">Trusted peers as unique defense strategy is not appealing when #MPs is greater than #TPs</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>A multi-objective optimization problem</h1>
+		    <p>Attackers and defenders have to solve a multi-objective optimization problem and each decision made by one part may have a countermeasure by the other part</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Shamir Secret Sharing Scheme</h1>
+		    <h2>Distribute secret into N shares useless by themselves, but with any $t$ shares can reconstruct it</h2>
+		    <img src="images/shares.png" alt="Shamir Secret Sharing" height="400" style="margin:5px"/>
+		    <p>The scheme turns the secret into the independent term of a polynomial of degree $t-1$, where $t$ is the number of shares needed to get the secret</p>
+		</section>
+		
+		<section>
+		    <h1>Strategy based on Trusted Peers and Shamir's Secret Sharing</h1>
+		    <h3 style="text-align: justify;">The main idea is very simple: <i>“if you want to remain in the team you must have a good behavior with at least t peers”</i>. The behavior rules are:</h3>
+		    <img src="images/sss.svg" alt="TP-SSS" align="center" height="480" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<!-- animation -->
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Shamir's Secret Sharing</h1>
+		    <img src="images/sss-1.svg" alt="TP-SSS" align="left" height="450" style="margin:5px"/>
+		    <h3 style="margin-top: 80px;"><b>1.</b>The Splitter sends a message $eSP^r_{j,i}$.</h3>
+		    <p class="formula">$eSP^r_{j,i}=\{eCH^r_{j,i},\ SH^{r+1}_i\}$</p>
+		    <p class="formula">$eCH^r_{j,i} = \{C_j, j, P_i, r, E_{K^r_i}[S_{pr}(H(C_j||j||P_i||r))]\}$</p>
+		    <p class="formula">$SH^{r+1}_i=\{\{SH^{r+1}_i\}_q,\ q=1,\ \ldots,\ n_r\}$</p>
+		    <p class="formula">$\{SH^{r+1}_i\}_q=\{P_i,P_q, r+1, A^{r+1}_{q,i},S_{pr}(H(P_i||P_q||r+1||A^{r+1}_{q,i}))\}$</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Shamir's Secret Sharing</h1>
+		    <img src="images/sss-2.svg" alt="TP-SSS" align="left" height="450" style="margin:5px"/>	
+		    <h3 style="margin-top: 80px;"><b>1.</b>The Splitter sends a message  $eSP^r_{j,i}$.</h3>
+		    <p class="formula">$eSP^r_{j,i}=\{eCH^r_{j,i},\ SH^{r+1}_i\}$</p>
+		    <p class="formula">$eCH^r_{j,i} = \{C_j, j, P_i, r, E_{K^r_i}[S_{pr}(H(C_j||j||P_i||r))]\}$</p>
+		    <p class="formula">$SH^{r+1}_i=\{\{SH^{r+1}_i\}_q,\ q=1,\ \ldots,\ n_r\}$</p>
+		    <p class="formula">$\{SH^{r+1}_i\}_q=\{P_i,P_q, r+1, A^{r+1}_{q,i},S_{pr}(H(P_i||P_q||r+1||A^{r+1}_{q,i}))\}$</p>
+		    <h3><b>2.</b>The peer reconstructs $K^r_i$, decrytps the message and verifies the signature.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Shamir's Secret Sharing</h1>
+		    <img src="images/sss-3.svg" alt="TP-SSS" align="left" height="450" style="margin:5px"/>	
+		    <h3 style="margin-top: 80px;"><b>1.</b>The Splitter sends a message  $eSP^r_{j,i}$.</h3>
+		    <p class="formula">$eSP^r_{j,i}=\{eCH^r_{j,i},\ SH^{r+1}_i\}$</p>
+		    <p class="formula">$eCH^r_{j,i} = \{C_j, j, P_i, r, E_{K^r_i}[S_{pr}(H(C_j||j||P_i||r))]\}$</p>
+		    <p class="formula">$SH^{r+1}_i=\{\{SH^{r+1}_i\}_q,\ q=1,\ \ldots,\ n_r\}$</p>
+		    <p class="formula">$\{SH^{r+1}_i\}_q=\{P_i,P_q, r+1, A^{r+1}_{q,i},S_{pr}(H(P_i||P_q||r+1||A^{r+1}_{q,i}))\}$</p>
+		    <h3><b>2.</b>The peer reconstructs $K^r_i$, decrytps the message and verifies the signature.</h3>
+		    <h3><b>3.</b>The peer sends the message decrypted.</h3>
+		    <p class="formula">$PP^r_{i,q}=\left\{CH^r_{j,i},\ \{SH^{r+1}_i\}_q \right\}$</p>
+		    <p class="formula">$CH^r_{j,i} = \{C_j, j, P_i, r, S_{pr}(H(C_j||j||P_i||r))\}$</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Strategy based on Trusted Peers and Shamir's Secret Sharing</h1>
+		    <img src="images/sss-4.svg" alt="TP-SSS" align="left" height="450" style="margin:5px"/>	
+		    <h3 style="margin-top: 80px;"><b>1.</b>The Splitter sends a message  $eSP^r_{j,i}$.</h3>
+		    <p class="formula">$eSP^r_{j,i}=\{eCH^r_{j,i},\ SH^{r+1}_i\}$</p>
+		    <p class="formula">$eCH^r_{j,i} = \{C_j, j, P_i, r, E_{K^r_i}[S_{pr}(H(C_j||j||P_i||r))]\}$</p>
+		    <p class="formula">$SH^{r+1}_i=\{\{SH^{r+1}_i\}_q,\ q=1,\ \ldots,\ n_r\}$</p>
+		    <p class="formula">$\{SH^{r+1}_i\}_q=\{P_i,P_q, r+1, A^{r+1}_{q,i},S_{pr}(H(P_i||P_q||r+1||A^{r+1}_{q,i}))\}$</p>
+		    <h3><b>2.</b>The peer reconstructs $K^r_i$, decrytps the message and verifies the signature.</h3>
+		    <h3><b>3.</b>The peer sends the message decrypted.</h3>
+		    <p class="formula">$PP^r_{i,q}=\left\{CH^r_{j,i},\ \{SH^{r+1}_i\}_q \right\}$</p>
+		    <p class="formula">$CH^r_{j,i} = \{C_j, j, P_i, r, S_{pr}(H(C_j||j||P_i||r))\}$</p>
+		    <h3><b>4.</b>The peer verifies the message and saves the share.</h3>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Theoretical analysis</h1>
+		    <h2><center>Results obtained after a theoretical analysis:<b> $\text{#MPs} <= N/2$</b></center></h2>
+		    <img src="images/sss-attacks.png" alt="results sss" height="450" style="margin:5px"/>
+		    <p class="red fragment">Some attacks are fully mitigated with only one Trusted Peer but not others</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Security</h2>
+			    <ul>
+				<li class="off">Pollution Attacks</li>
+				<li class="off">Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Software Defined Networks</h1>
+		    <h2>SDN Architecture</h2>
+		    <img src="images/sdn-architecture.png" alt="SDN Architecture" height="400" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<!-- animation -->
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-1.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-2.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-3.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-4.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-5.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-6.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>Software Defined Networks</h1>
+		    <h2>P2PSP Proposal</h2>
+		    <img src="images/basic-net-7.svg" alt="SDN P2PSP Proposal" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		<!-- end animation -->
+
+		<section>
+		    <h1>Software Defined Networks</h1>
+		    <p class="green">It also works under hybrid environments</p>
+		    <img src="images/hybrid-net.svg" alt="SDN Hybrid P2PSP Proposal" height="550" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+		
+		<section>
+		    <h1>Detection Probabilities</h1>
+		    <h2>Model</h2>
+		    <p>$p = \sum_{r=1}^{N} \left(\left(\frac{Z-2}{Z-1}\right)^{(r-1)} \times \frac{1}{Z-1}\right)$</p>
+		    <img src="images/sdnprobabilitymodel.svg" alt="SDN Probability Model" height="430" />
+		    <p class="green fragment">Expelling takes 98 seconds assuming a 720p HD video (2500 kbps) and chunk size 1024 bytes</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p><b>Team size:</b> 10 to 100 | <b>Samples:</b> 100 | <b>Period:</b> 1 | <b>Cases:</b> Fixed and Variable attacks.</p>
+		    <p>An open-source implementation is available on <a href="http://code.p2psp.org">GitHub</a></p>
+		    <img src="images/sdnexperiment.svg" alt="SDN experiments" height="450" />
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Modifying the scrambling period</p>
+		    <img src="images/period.svg" alt="SDN Probability Scrambling period" height="500" />
+		    <p class="green fragment">We can modify the parameters to find a compromise between detection success and cost</p>
+		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+		
+		<section data-transition=none>
+		    <h1>NAT Traversal</h1>
+		    <h2>Peers communication issues</h2>
+		    <img src="images/symmetricnat.png" alt="NAT Traversal" height="400" />
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>NAT Traversal</h1>
+		    <h2>Peers communication issues</h2>
+		    <img src="images/symmetricnat-1.png" alt="NAT Traversal" height="400" />
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>NAT Traversal</h1>
+		    <h2>Peers communication issues</h2>
+		    <img src="images/symmetricnat-2.png" alt="NAT Traversal" height="400" />
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+		<section data-transition=none>
+		    <h1>NAT Traversal</h1>
+		    <h2>Peers communication issues</h2>
+		    <img src="images/symmetricnat-3.png" alt="NAT Traversal" height="400" />
+		    <p class="fragment red">$P_1$ should send the hello message to $B^1$ and $P_2$ should send the hello message to $A^1$<br /> We will have to predict the ports that will be used</p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Collaborative Port Prediction</h1>
+		    <h2>Proposal</h2>
+		    <br />
+		    <p class="fragment"><b>Splitter with the info collected from monitors peers:</b> <br />
+		      $\Delta^B =  \left\{ \begin{array}{ll}  0&, \text{ if } \forall i, \Delta_i^B = 0 \\ \mathrm{GCD}(\Delta_1^B, \cdots, \Delta_N^B)&, \text{ otherwise} \end{array} \right.$</p>
+		    <br /> <br />
+		    <p class="fragment"><b>$P_j$ with the info received from the Splitter: </b><br />
+		      $\begin{array}{rcl}   \{s(P_j)\} & = & B^0 + j + \{s\in\{0,1,\cdots,n/2-1\}\}; \\   \{s(P_j)\} & += & B^0 + (j + \{s\in\{n/2,1,\cdots, n-1\}\}) \cdot \Delta^B \end{array}$
+		    </p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p><b>Port step:</b> [1 to 200] | <b>Monitors:</b> 1 | Port predictions <b>$n=20$</b></p>
+		    <img src="images/performancenats.svg" alt="Performance NAT Traversal" height="400" />
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+		<section>
+		    <h1>Experiments</h1>
+		    <p><b>$N:$</b> [1 to 10] | <b>Port step:</b> [1 to 6] | Port predictions <b>$n=20$</b></p>
+		    <img src="images/numbermonitorsnats.svg" alt="Number monitors NAT Traversal" height="400" />
+		    <p class="fragment green">Only two monitor peers collaborating leads to higher traversal success rates</p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li class="off">NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>Google Chromecast</h1>
+		    <p><b>Google Chromecast (GC)</b> is a device designed as small dongle, which enable users with a mobile device or personal computer to play Internet-streamed audio-visual content on a high-definition television.</p>
+		    <img src="images/chromecast.svg" alt="Chromecast Device" height="200" style="margin:5px"/>
+		    <h2>Low Resources</h2>
+		    <p class="fragment" style="text-align:justify;"><b>1st generation</b> incorporates a Marvel ARMADA 1500 Mini, and <b>512 MB of RAM</b> memory. It also includes <b>hardware for decoding VP8 and H.264</b> video compression formats.</p>
+		    <p class="fragment" style="text-align:justify;"><b>2nd generation</b> GCs use a Marvel ARMADA 1500 Mini Plus, <b>2.5 times faster</b> than the 1st generation. Includes <b>512 MB of RAM</b> memory. It is also able to <b>decode VP9</b>.</p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+		    <h1>How does it work?</h1>
+		    <img src="images/chromecastworking.png" alt="Chromecast en Cast developers" align="center" height="500" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+		</section>
+
+		<section>
+    		    <h1>Built-in Technologies</h1>
+		    <div style="float:left; width:33%;" class="fragment">
+			<img src="images/languages.png" alt="HTML5" height="200" />
+		    </div>
+		    <div style="float:left; width:33%;" class="fragment">
+			<img src="images/webrtc.png" alt="WebRTC" height="200" />
+		    </div>
+		    <div style="float:left; width:33%;"  class="fragment">
+			<br /><br />	
+			<h1><b>MSE</b></h1>
+		    </div>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+  		</section>
+
+		<section>
+		    <h1>Development</h1>
+		    <h2>A P2PSP Chromecast Team</h2>
+		    <img src="images/p2psp-chromecast.svg" alt="Team P2PSP en Chromecast" align="center" height="500" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+		
+		<section>
+		    <h1>Development</h1>
+		    <h2>P2PSP Chromecast Peer Architecture</h2>
+		    <img src="images/gc-p2psp-schema.svg" alt="Arquitectura peer en chromecast" align="center" height="550" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Streaming a MP4 (H.264 + AAC) video at 24 FPS. Resolution: 640x360</p>
+		    <img src="images/splittermoto.png" alt="Splitter smartphone" align="center" height="480" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Streaming a MP4 (H.264 + AAC) video at 24 FPS. Resolution: 1920x1080</p>
+		    <img src="images/splittermoto-1.png" alt="Splitter smartphone" align="center" height="480" style="margin:5px"/>
+		    <p class="fragment green">Number of peers receiving the media increases significantly in comparison with a CS model</p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Streaming a MP4 (H.264 + AAC) video at 24 FPS. Resolution: 640x360</p>
+		    <img src="images/gc.png" alt="Peers in Chromecast CPU Usage" align="center" height="480" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Streaming a MP4 (H.264 + AAC) video at 24 FPS. Resolution: 1920x1080</p>
+		    <img src="images/gc-1.png" alt="Peers in Chromecast CPU Usage" align="center" height="480" style="margin:5px"/>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+		
+		<section>
+		    <h1>Experiments</h1>
+		    <p>Streaming a MP4 (H.264 + AAC) video at 24 FPS. Resolutions: 640x360 and 1920x1080</p>
+		    <img src="images/memorygc.png" alt="Peers in Chromecast Memory Usage" align="center" height="400" style="margin:5px"/>
+		    <p class="fragment green">A peer can run on a GC improving the QoE of the user when connected to an HDMI TV</p>
+		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
+ 		</section>
+
+		<section>
+		    <h1>Outline</h1>
+		    <ul>
+			<li class="off">
+			    <h2>Introduction</h2>
+			    <ul>
+				<li>Background</li>
+				<li>Research Questions</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Peer to Peer Straighforward Protocol</h2>
+			    <ul>
+				<li>An application-layer protocol that provides real-time broadcasting on the Internet</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Security</h2>
+			    <ul>
+				<li>Pollution Attacks</li>
+				<li>Strategies applied to Traditional Networks</li>
+				<li>Strategies applied to Software Defined Networks</li>
+			    </ul>
+			</li>
+			<li class="off">
+			    <h2>Deployment Issues</h2>
+			    <ul>
+				<li>NAT Traversal using Collaborative Port Prediction</li>
+				<li>Runing P2PSP on low resources devices</li>
+			    </ul>
+			</li>
+			<li>
+			    <h2>Conclusions</h2>
+			    <ul>
+				<li>Key Results</li>
+			    </ul>
+			</li>
+		    </ul>
+		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
+		</section>
+		
+		<section>
+		    <h1>Conclusions</h1>
+		    <h2>Deployment</h2>
+		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> We propose a <b>straightforward P2P Protocol</b> to ensure an easy implementation, even in resource-constrained devices. Moreover, we identified the main issues and propose a modular design.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> We proposed a new and simple <b>NAT Traversal algorithm that uses Collaborative Port Prediction</b> in which a low number of source ports is needed for traversal succes.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> We got a implementation of the <b>P2PSP running on embedded devices</b> aiming of avoiding third-party media servers, in order to decrease the cost of the streaming and increase the degree of privacy.</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
+		</section>
+
+		<section>
+		    <h1>Conclusions</h1>
+		    <h2>Security</h2>
+		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> Our experimental results show that <b>using only trusted peers</b> as a defense strategy is not appealing when the number of malicious peers can be large.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> The most severe possible <b>attack is fully mitigated</b> by using SSS. For the remaining attacks, we can improve effectiveness to face them increasing the number of TPs.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> <b>Deterministic quick MP detection</b>, not only in pure SDN environments but also in mixed environments where some peers are on the Internet and others are under managed networks.</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
+		</section>
+
+		<section>
+		    <h1>Publications</h1>
+		    <h2>International Journals (JCR)</h2>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-Lopez, C., Mertens, M.B., Gonzalez-Ruiz, V. & Casado, L.G. (2019). Reducing streaming cost while increasing privacy: A case study on a smartphone and chromecast using peer-to-peer technology to skip third-party servers. <b><span style="color:#2f6195;">IEEE Consumer Electronics Magazine</span></b>, DOI: 10.1109/MCE.2018.2880810. 8, 50–55 Impact factor JCR 2018: 3.273. <b>(Q1)</b>.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2. (Under Review)</b> Medina-Lopez, C.,  Casado, L.G, Yuansong Qiao & Gonzalez-Ruiz, V. An SDN Approach to Detect Targeted Attacks in P2P Fully Connected Overlays. <b><span style="color:#2f6195;">International Journal of Information Security</span></b>. Impact Factor JCR 2018: 1.822. 44/107 <b>(Q2)</b>.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>3. (Under Review)</b> Medina-Lopez, C., García-Ortiz J.P, Martinez, J.A, Casado, L.G, Gonzalez-Ruiz, V. NAT Traversal in P2P Networks using Collaborative Port Prediction.  <b><span style="color:#2f6195;">Peer-to-Peer Networking and Applications</span></b>. Impact Factor JCR 2018: 2.397. 70/155 <b>(Q2)</b>.</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
+		</section>
+
+		<section>
+		    <h1>Publications</h1>
+		    <h2>International Conferences with DOI</h2>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V. & Casado, L. (2017). On mitigating pollution and free-riding attacks by Shamir’s Secret Sharing in fully connected P2P systems. In  <b><span style="color:#2f6195;">Wireless Communications and Mobile Computing Conference (IWCMC)</span></b>, 2017 13th International, 711–716, DOI: 10.1109/IWCMC.2017.7986372. IEEE.<b>GGS Rating: B, GGS Class: 3</b>.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Shakirov, I., Casado, L. & González-Ruiz, V. (2017). On pollution attacks in fully connected P2P networks using trusted peers. In  <b><span style="color:#2f6195;">Intelligent Systems Design and Applications</span></b>, 144–153, DOI: 10.1007/978-3-319-53480-0. Springer, Cham, Porto. <b>CORE 2016: rank C.</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>3.</b> Medina-López, C., Casado, L. & González-Ruiz, V. (2015). Pollution Attacks Detection in the P2PSP Live Streaming System. In International Joint Conference. CISIS 2015.  <b><span style="color:#2f6195;">Advances in Intelligent Systems and Computing</span></b>, 401–410, DOI: 10.1007/978-3-319-19713-5 34. Springer International Publishing. <b>CORE 2014: rank B.</b></p>
+		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
+		</section>
+
+		<section>
+		    <h1>Publications</h1>
+		    <h2>Other International Conferences</h2>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C. (2015). Participation as a speaker. In GSoC 2015 Lightning Talks, <b>Google Inc., SunnyVale, CA. USA</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., García Ortiz, J.P., Naranjo, J., Casado, L. & González-Ruiz, V. (2014). IPTV using P2PSP and HTML5+WebRTC. <b>In 4th W3C Web and TV Workshop</b>, 5, IRT, W3C, Munchen, Germany</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
+		</section>
+
+		<section>
+		    <h1>Publications</h1>
+		    <h2>National Conferences</h2>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V., Casado, L.G., Naranjo, J. & Garcı́a-Ortiz, J.P. (2015). Ejecutando peers p2psp en google chromecast. In Actas VI Jornadas de Computación Empotrada, 123–129, Cordoba</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Naranjo, J., Garcı́a-Ortiz, J.P., Casado, L.G. & González-Ruiz, V. (2013). Execution of the P2PSP protocol in parallel environments. In G.B. y Alberto A. Del Barrio Garcia, ed., Actas XXIV Jornadas de Paralelismo, 216–221, Madrid</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
+		</section>
+
+		<section>
+		    <h1>Publications</h1>
+		    <h2>Other Publications produced during the elaboration of this Thesis</h2>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Andujar, A. & Medina-López, C. (2019). Exploring New Ways of eTandem and Telecollaboration Through the WebRTC Protocol: Students’ Engagement and Perceptions. International Journal of Emerging Technologies in Learning (iJET), 14, 200–217</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-Lopez, C., Casado, L.G. & Gonzalez-Ruiz, V. (2015). P2PSP: un protocolo de red sencillo como herramienta para el aprendizaje basado en proyectos. Experiencias Docentes en Redes de Computadores, 1, 35–41</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
+		</section>
+
+		<section data-state="no-title-footer">
+		    <h1  style="margin:180px;">Thanks!</h1>
+		    <img src="images/feder.png" alt="Feder" height="70">
+		    <img src="images/gobierno.jpg" alt="Gobierno de España" height="70">
+		    <!-- <img src="images/junta.png" alt="Junta de Andalucia" height="70"> -->
+		    <img src="images/ceia3.jpg" alt="CEIA3" height="70">
+		    <img src="images/p2pspsf.png" alt="P2PSP protocol" height="70" />
+		    <img src="images/sal.png" alt="grupo SAL" height="70" />
+		    <a href="https://summerofcode.withgoogle.com/organizations/5717890352283648/"><img src="images/gsoc-banner.jpg" alt="Google Summer of Code 2017" height="70"/>
+		</section>
+	    </div>
+	</div>
+
+	<script src="js/reveal.js">
+	</script>
+
+	<script>
+	 // More info about config & dependencies:
+	 // - https://github.com/hakimel/reveal.js#configuration
+	 // - https://github.com/hakimel/reveal.js#dependencies
+	 Reveal.initialize({
+	     history: true,
+	     controls: false,
+             slideNumber: false,
+	     dependencies: [
+		 { src: 'plugin/markdown/marked.js' },
+		 { src: 'plugin/markdown/markdown.js' },
+		 { src: 'plugin/notes/notes.js', async: true },
+		 { src: 'plugin/math/math.js' },
+		 { src: 'plugin/highlight/highlight.js', async: true },
+		 { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() {
+		     title_footer.initialize("Introduction P2PSP Security Deployment Conclusions");
+		 } }
+	     ]
+	 });
+
+	 Reveal.addEventListener( 'slidechanged', function(evt) {
+	     var progress = evt.currentSlide.querySelector("div.ptag") ;
+	     if (progress != null) {
+		 title_footer.update(progress.innerHTML);
+	     }
+	     const isFirst = event.indexh === 0;
+	     Reveal.configure({ slideNumber: !isFirst });
+	 } );
+
+	 
+	</script>
+    </body>
+</html>

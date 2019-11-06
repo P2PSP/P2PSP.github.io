@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="700"
+   viewBox="0 0 800 700"
+   version="1.1"
+   id="svg613"
+   sodipodi:docname="period.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata619">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs617" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview615"
+     showgrid="false"
+     inkscape:zoom="0.67428571"
+     inkscape:cx="391.53056"
+     inkscape:cy="336.12737"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="gnuplot_canvas" />
+  <title
+     id="title2">Gnuplot</title>
+  <desc
+     id="desc4">Produced by GNUPLOT 5.2 patchlevel 2 </desc>
+  <g
+     id="gnuplot_canvas">
+    <rect
+       x="-6"
+       y="0"
+       width="800"
+       height="700"
+       id="rect6"
+       style="fill:none" />
+    <defs
+       id="defs34">
+      <circle
+         id="gpDot"
+         r="0.5"
+         stroke-width="0.5" />
+      <path
+         id="gpPt0"
+         stroke-width="0.133"
+         stroke="currentColor"
+         d="M-1,0 h2 M0,-1 v2" />
+      <path
+         id="gpPt1"
+         stroke-width="0.133"
+         stroke="currentColor"
+         d="M-1,-1 L1,1 M1,-1 L-1,1" />
+      <path
+         id="gpPt2"
+         stroke-width="0.133"
+         stroke="currentColor"
+         d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+      <rect
+         id="gpPt3"
+         stroke-width="0.133"
+         stroke="currentColor"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2" />
+      <rect
+         id="gpPt4"
+         stroke-width="0.133"
+         stroke="currentColor"
+         fill="currentColor"
+         x="-1"
+         y="-1"
+         width="2"
+         height="2" />
+      <circle
+         id="gpPt5"
+         stroke-width="0.133"
+         stroke="currentColor"
+         cx="0"
+         cy="0"
+         r="1" />
+      <use
+         xlink:href="#gpPt5"
+         id="gpPt6"
+         fill="currentColor"
+         stroke="none" />
+      <path
+         id="gpPt7"
+         stroke-width="0.133"
+         stroke="currentColor"
+         d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt8"
+         fill="currentColor"
+         stroke="none" />
+      <use
+         xlink:href="#gpPt7"
+         id="gpPt9"
+         stroke="currentColor"
+         transform="rotate(180)" />
+      <use
+         xlink:href="#gpPt9"
+         id="gpPt10"
+         fill="currentColor"
+         stroke="none" />
+      <use
+         xlink:href="#gpPt3"
+         id="gpPt11"
+         stroke="currentColor"
+         transform="rotate(45)" />
+      <use
+         xlink:href="#gpPt11"
+         id="gpPt12"
+         fill="currentColor"
+         stroke="none" />
+      <path
+         id="gpPt13"
+         stroke-width="0.133"
+         stroke="currentColor"
+         d="M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z" />
+      <use
+         xlink:href="#gpPt13"
+         id="gpPt14"
+         fill="currentColor"
+         stroke="none" />
+      <filter
+         id="textbox"
+         filterUnits="objectBoundingBox"
+         x="0"
+         y="0"
+         height="1"
+         width="1">
+        <feFlood
+           flood-color="white"
+           flood-opacity="1"
+           result="bgnd"
+           id="feFlood24" />
+        <feComposite
+           in="SourceGraphic"
+           in2="bgnd"
+           operator="atop"
+           id="feComposite26" />
+      </filter>
+      <filter
+         id="greybox"
+         filterUnits="objectBoundingBox"
+         x="0"
+         y="0"
+         height="1"
+         width="1">
+        <feFlood
+           flood-color="lightgrey"
+           flood-opacity="1"
+           result="grey"
+           id="feFlood29" />
+        <feComposite
+           in="SourceGraphic"
+           in2="grey"
+           operator="atop"
+           id="feComposite31" />
+      </filter>
+    </defs>
+    <g
+       fill="none"
+       color="white"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g36" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g38" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g40" />
+    <g
+       id="g44"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,469 H 757.9"
+         id="path42"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g46" />
+    <g
+       id="g56"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,469 h 15 m 621.9,0 h -15"
+         id="path48"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,475.5)"
+         font-size="20.00"
+         id="g54"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text52">
+          <tspan
+             id="tspan50"
+             style="font-family:Arial">0</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g58" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g60" />
+    <g
+       id="g64"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,431.1 H 757.9"
+         id="path62"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g66" />
+    <g
+       id="g76"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,431.1 h 15 m 621.9,0 h -15"
+         id="path68"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,437.6)"
+         font-size="20.00"
+         id="g74"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text72">
+          <tspan
+             id="tspan70"
+             style="font-family:Arial">0.1</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g78" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g80" />
+    <g
+       id="g84"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,393.2 H 757.9"
+         id="path82"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g86" />
+    <g
+       id="g96"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,393.2 h 15 m 621.9,0 h -15"
+         id="path88"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,399.7)"
+         font-size="20.00"
+         id="g94"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text92">
+          <tspan
+             id="tspan90"
+             style="font-family:Arial">0.2</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g98" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g100" />
+    <g
+       id="g104"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,355.3 H 757.9"
+         id="path102"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g106" />
+    <g
+       id="g116"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,355.3 h 15 m 621.9,0 h -15"
+         id="path108"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,361.8)"
+         font-size="20.00"
+         id="g114"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text112">
+          <tspan
+             id="tspan110"
+             style="font-family:Arial">0.3</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g118" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g120" />
+    <g
+       id="g124"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,317.4 H 757.9"
+         id="path122"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g126" />
+    <g
+       id="g136"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,317.4 h 15 m 621.9,0 h -15"
+         id="path128"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,323.9)"
+         font-size="20.00"
+         id="g134"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text132">
+          <tspan
+             id="tspan130"
+             style="font-family:Arial">0.4</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g138" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g140" />
+    <g
+       id="g144"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,279.5 H 757.9"
+         id="path142"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g146" />
+    <g
+       id="g156"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,279.5 h 15 m 621.9,0 h -15"
+         id="path148"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,286)"
+         font-size="20.00"
+         id="g154"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text152">
+          <tspan
+             id="tspan150"
+             style="font-family:Arial">0.5</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g158" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g160" />
+    <g
+       id="g164"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,241.7 H 757.9"
+         id="path162"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g166" />
+    <g
+       id="g176"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,241.7 h 15 m 621.9,0 h -15"
+         id="path168"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,248.2)"
+         font-size="20.00"
+         id="g174"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text172">
+          <tspan
+             id="tspan170"
+             style="font-family:Arial">0.6</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g178" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g180" />
+    <g
+       id="g184"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,203.8 H 757.9"
+         id="path182"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g186" />
+    <g
+       id="g196"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,203.8 h 15 m 621.9,0 h -15"
+         id="path188"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,210.3)"
+         font-size="20.00"
+         id="g194"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text192">
+          <tspan
+             id="tspan190"
+             style="font-family:Arial">0.7</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g198" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g200" />
+    <g
+       id="g204"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,165.9 H 757.9"
+         id="path202"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g206" />
+    <g
+       id="g216"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,165.9 h 15 m 621.9,0 h -15"
+         id="path208"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,172.4)"
+         font-size="20.00"
+         id="g214"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text212">
+          <tspan
+             id="tspan210"
+             style="font-family:Arial">0.8</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g218" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g220" />
+    <g
+       id="g224"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,128 H 757.9"
+         id="path222"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g226" />
+    <g
+       id="g236"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,128 h 15 m 621.9,0 h -15"
+         id="path228"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,134.5)"
+         font-size="20.00"
+         id="g234"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text232">
+          <tspan
+             id="tspan230"
+             style="font-family:Arial">0.9</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g238" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g240" />
+    <g
+       id="g244"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,90.1 H 757.9"
+         id="path242"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g246" />
+    <g
+       id="g256"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,90.1 h 15 m 621.9,0 h -15"
+         id="path248"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(107,96.6)"
+         font-size="20.00"
+         id="g254"
+         style="font-size:20px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+        <text
+           id="text252">
+          <tspan
+             id="tspan250"
+             style="font-family:Arial">1</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g258" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g260" />
+    <g
+       id="g264"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 121,469 V 90.1"
+         id="path262"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g266" />
+    <g
+       id="g276"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 121,469 v -15 m 0,-363.9 v 15"
+         id="path268"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(121,505.5)"
+         font-size="20.00"
+         id="g274"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text272">
+          <tspan
+             id="tspan270"
+             style="font-family:Arial">0</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g278" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g280" />
+    <g
+       id="g284"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 202.9,469 V 90.1"
+         id="path282"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g286" />
+    <g
+       id="g296"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 202.9,469 v -15 m 0,-363.9 v 15"
+         id="path288"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(202.9,505.5)"
+         font-size="20.00"
+         id="g294"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text292">
+          <tspan
+             id="tspan290"
+             style="font-family:Arial">1000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g298" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g300" />
+    <g
+       id="g304"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 284.8,469 V 90.1"
+         id="path302"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g306" />
+    <g
+       id="g316"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 284.8,469 v -15 m 0,-363.9 v 15"
+         id="path308"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(284.8,505.5)"
+         font-size="20.00"
+         id="g314"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text312">
+          <tspan
+             id="tspan310"
+             style="font-family:Arial">2000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g318" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g320" />
+    <g
+       id="g324"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 366.7,469 V 90.1"
+         id="path322"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g326" />
+    <g
+       id="g336"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 366.7,469 v -15 m 0,-363.9 v 15"
+         id="path328"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(366.7,505.5)"
+         font-size="20.00"
+         id="g334"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text332">
+          <tspan
+             id="tspan330"
+             style="font-family:Arial">3000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g338" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g340" />
+    <g
+       id="g344"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 448.6,469 V 90.1"
+         id="path342"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g346" />
+    <g
+       id="g356"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 448.6,469 v -15 m 0,-363.9 v 15"
+         id="path348"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(448.6,505.5)"
+         font-size="20.00"
+         id="g354"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text352">
+          <tspan
+             id="tspan350"
+             style="font-family:Arial">4000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g358" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g360" />
+    <g
+       id="g364"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 530.5,469 V 90.1"
+         id="path362"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g366" />
+    <g
+       id="g376"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 530.5,469 v -15 m 0,-363.9 v 15"
+         id="path368"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(530.5,505.5)"
+         font-size="20.00"
+         id="g374"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text372">
+          <tspan
+             id="tspan370"
+             style="font-family:Arial">5000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g378" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g380" />
+    <g
+       id="g384"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 612.4,469 V 90.1"
+         id="path382"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g386" />
+    <g
+       id="g396"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 612.4,469 v -15 m 0,-363.9 v 15"
+         id="path388"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(612.4,505.5)"
+         font-size="20.00"
+         id="g394"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text392">
+          <tspan
+             id="tspan390"
+             style="font-family:Arial">6000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g398" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="0.50"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g400" />
+    <g
+       id="g404"
+       transform="translate(-6)"
+       style="color:#808080;fill:none;stroke:currentColor;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         class="gridline"
+         d="M 694.3,469 V 90.1"
+         id="path402"
+         inkscape:connector-curvature="0"
+         style="stroke:#808080;stroke-dasharray:2, 4" />
+    </g>
+    <g
+       fill="none"
+       color="gray"
+       stroke="gray"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g406" />
+    <g
+       id="g416"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="m 694.3,469 v -15 m 0,-363.9 v 15"
+         id="path408"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+      <g
+         transform="translate(694.3,505.5)"
+         font-size="20.00"
+         id="g414"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text412">
+          <tspan
+             id="tspan410"
+             style="font-family:Arial">7000</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g418" />
+    <g
+       id="g422"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="M 121,90.1 V 469 H 757.9 V 90.1 Z"
+         id="path420"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+    </g>
+    <g
+       id="g430"
+       transform="translate(19.211864,5.9322034)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         transform="rotate(-90,153.55,126.05)"
+         font-size="20.00"
+         id="g428"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text426">
+          <tspan
+             id="tspan424"
+             style="font-family:Arial;-inkscape-font-specification:'Arial Bold';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Probability of MP's detection</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       id="g438"
+       transform="translate(-8,-16)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         transform="translate(439.4,550.5)"
+         font-size="20.00"
+         id="g436"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text434">
+          <tspan
+             id="tspan432"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">Number of round</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       id="g446"
+       transform="translate(-36,6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <g
+         transform="translate(439.4,51.6)"
+         font-size="20.00"
+         id="g444"
+         style="font-size:20px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none">
+        <text
+           id="text442">
+          <tspan
+             font-weight="bold"
+             id="tspan440"
+             style="font-weight:bold;font-size:42.66666794px;font-family:Times">Team Size 100</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_1"
+       transform="translate(-6)">
+      <title
+         id="title448">Scrambling period = 1</title>
+      <g
+         id="g450"
+         style="color:#ffffff;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter" />
+      <g
+         id="g458"
+         transform="translate(-62)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(348.8,569.4)"
+           font-size="18.00"
+           id="g456"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text454">
+            <tspan
+               id="tspan452"
+               style="font-family:Arial">Scrambling period = 1</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g462"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 361.4,563.5 h 65.4 m -305.6,-98.3 0.1,-3.8 0.1,-3.8 0.1,-7.5 0.1,-3.8 0.1,-3.8 v -3.8 l 0.1,-3.8 0.2,-3.8 0.1,-3.8 0.3,-7.6 0.1,-7.5 0.1,-7.6 0.2,-11.4 0.1,-3.8 0.1,-3.8 0.1,-3.7 0.1,-3.8 0.1,-3.8 0.2,-3.8 0.2,-3.8 0.1,-7.6 0.2,-3.8 0.1,-3.8 0.2,-3.7 0.1,-7.6 0.1,-7.6 0.5,-3.8 0.2,-3.8 0.1,-11.3 v -3.8 l 0.1,-7.6 0.3,-7.6 v -3.8 l 0.1,-3.8 0.2,-3.8 0.5,-7.5 0.2,-3.8 0.1,-7.6 0.1,-3.8 0.4,-7.6 0.2,-7.6 0.1,-3.7 0.2,-3.8 0.2,-3.8 0.4,-11.4 0.5,-3.8 0.7,-3.8 0.6,-3.8 0.6,-3.7 0.3,-3.8 0.6,-3.8 0.1,-3.8 0.1,-3.8 0.3,-3.8 0.3,-3.8 V 181 l 0.2,-3.8 0.2,-3.7 0.2,-7.6 0.2,-3.8 0.6,-3.8 0.5,-3.8 0.5,-3.8 0.4,-3.8 1.6,-3.8 0.3,-3.7 0.9,-3.8 0.4,-3.8 0.1,-3.8 0.3,-3.8 2.1,-3.8 0.9,-3.8 0.1,-3.8 0.9,-3.8 0.5,-3.7 1.3,-3.8 1.9,-3.8 9.5,-3.8 2.2,-3.8"
+           id="path460"
+           inkscape:connector-curvature="0"
+           style="stroke:#9400d3;stroke-dasharray:7.5, 12" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_2"
+       transform="translate(-6)">
+      <title
+         id="title465">Scrambling period = 2</title>
+      <g
+         id="g473"
+         transform="translate(-62)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(348.8,596.4)"
+           font-size="18.00"
+           id="g471"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text469">
+            <tspan
+               id="tspan467"
+               style="font-family:Arial">Scrambling period = 2</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g477"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 361.4,590.5 h 65.4 m -305.7,-125.3 0.3,-7.6 0.3,-3.8 0.2,-3.7 0.2,-3.8 0.3,-3.8 0.2,-7.6 0.1,-3.8 0.3,-3.8 0.2,-3.8 0.2,-3.8 0.1,-7.5 0.9,-3.8 0.1,-3.8 0.2,-3.8 0.5,-7.6 0.3,-3.8 0.2,-3.8 0.1,-3.7 0.2,-3.8 0.2,-3.8 0.1,-7.6 0.4,-3.8 0.1,-7.6 0.3,-7.5 0.2,-3.8 0.2,-3.8 0.1,-3.8 0.2,-3.8 0.2,-3.8 0.6,-7.6 0.2,-3.8 0.1,-3.7 0.9,-3.8 0.1,-7.6 0.7,-7.6 0.3,-3.8 0.5,-3.8 0.5,-3.8 0.2,-3.8 0.1,-3.7 0.3,-3.8 0.4,-3.8 0.1,-3.8 0.7,-3.8 0.8,-3.8 0.3,-3.8 0.2,-3.8 0.7,-3.8 0.1,-3.7 0.2,-3.8 0.2,-3.8 1.3,-3.8 0.3,-7.6 0.2,-3.8 0.3,-3.8 0.8,-3.8 0.5,-3.7 0.3,-3.8 0.2,-3.8 0.6,-3.8 1.7,-3.8 0.1,-3.8 0.4,-3.8 0.8,-3.8 0.5,-3.8 1,-3.7 1.3,-3.8 1.8,-3.8 1.6,-3.8 1,-3.8 0.8,-3.8 2.1,-3.8 0.2,-3.8 0.5,-3.8 2.1,-3.7 0.2,-3.8 0.5,-3.8 0.1,-3.8 1.7,-3.8 1.5,-3.8 6,-3.8 0.5,-3.8 3.9,-3.8 10.4,-3.7 10.9,-3.8 5.4,-3.8 21.3,-3.8 14.3,-3.8"
+           id="path475"
+           inkscape:connector-curvature="0"
+           style="stroke:#009e73;stroke-dasharray:7.5, 12" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_3"
+       transform="translate(-6)">
+      <title
+         id="title480">Scrambling period = 4</title>
+      <g
+         id="g488"
+         transform="translate(-60)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(348.8,623.4)"
+           font-size="18.00"
+           id="g486"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text484">
+            <tspan
+               id="tspan482"
+               style="font-family:Arial">Scrambling period = 4</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g492"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 361.4,617.5 h 65.4 m -305.7,-152.3 0.6,-11.4 0.4,-3.7 0.3,-11.4 1.3,-3.8 1,-3.8 0.3,-3.8 0.3,-3.8 1.4,-7.5 0.9,-3.8 0.7,-11.4 0.3,-3.8 0.7,-3.8 0.6,-7.6 0.4,-3.7 0.3,-3.8 1.3,-7.6 0.6,-3.8 1,-11.4 0.4,-3.8 0.3,-3.7 0.3,-11.4 0.7,-7.6 1.3,-3.8 0.3,-3.8 1,-3.8 0.3,-3.7 1.3,-7.6 1,-3.8 0.3,-3.8 0.4,-3.8 0.3,-3.8 0.3,-3.8 1,-7.6 0.7,-3.7 0.6,-3.8 0.3,-3.8 1,-3.8 0.4,-3.8 0.9,-3.8 0.7,-3.8 0.3,-3.8 1.7,-3.8 0.6,-7.5 1,-3.8 1.6,-3.8 0.7,-3.8 0.6,-3.8 0.7,-3.8 1.6,-3.8 0.7,-3.8 1.3,-7.5 2,-11.4 0.9,-3.8 3,-3.8 0.3,-3.8 0.4,-3.8 4.9,-3.7 0.6,-3.8 1.7,-3.8 0.3,-3.8 1.3,-3.8 0.3,-3.8 4,-3.8 0.3,-3.8 2.3,-7.5 3.2,-7.6 1,-3.8 0.7,-3.8 4.2,-3.8 7.9,-3.8 8.5,-3.8 12.1,-3.8 4.6,-3.7 23.3,-3.8 5.2,-3.8 9.9,-3.8 27.5,-3.8"
+           id="path490"
+           inkscape:connector-curvature="0"
+           style="stroke:#56b4e9;stroke-dasharray:7.5, 12" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_4"
+       transform="translate(-6)">
+      <title
+         id="title495">Scrambling period = 8</title>
+      <g
+         id="g503"
+         transform="translate(-60)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(348.8,650.4)"
+           font-size="18.00"
+           id="g501"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text499">
+            <tspan
+               id="tspan497"
+               style="font-family:Arial">Scrambling period = 8</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g507"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 361.4,644.5 h 65.4 m -305.1,-183.1 1.3,-3.8 0.7,-7.5 2,-3.8 1.3,-3.8 1.3,-3.8 1.3,-3.8 0.7,-3.8 0.6,-3.8 1.3,-3.8 1.3,-11.3 0.7,-3.8 0.6,-7.6 0.7,-3.8 0.7,-3.8 0.6,-3.8 2.6,-3.8 0.7,-3.7 1.3,-3.8 1.3,-3.8 0.7,-3.8 0.6,-3.8 0.7,-3.8 1.3,-15.1 1.9,-3.8 1.4,-11.4 1.3,-3.8 0.6,-3.8 2.6,-3.8 0.7,-3.8 0.7,-3.7 0.6,-3.8 2,-3.8 2.6,-3.8 3.3,-3.8 0.6,-3.8 0.7,-3.8 9.2,-3.8 3.2,-7.6 2,-3.7 3.9,-3.8 0.7,-7.6 5.2,-7.6 0.7,-3.8 0.6,-3.8 1.3,-3.8 6.6,-3.7 0.6,-3.8 1.4,-3.8 1.3,-3.8 4.6,-3.8 1.9,-3.8 7.9,-3.8 3.3,-3.8 0.6,-3.8 1.3,-3.7 3.3,-3.8 2.6,-3.8 2,-7.6 1.3,-7.6 3.3,-3.8 0.6,-3.8 0.7,-3.7 4.6,-3.8 1.3,-7.6 1.3,-3.8 1.3,-7.6 9.2,-3.8 1.9,-3.8 7.2,-3.7 5.9,-3.8 7.9,-3.8 5.2,-3.8 2.7,-3.8 0.6,-3.8 5.3,-3.8 4.5,-7.6 6.6,-3.7 1.3,-3.8 8.5,-3.8 27.5,-3.8 48.5,-3.8"
+           id="path505"
+           inkscape:connector-curvature="0"
+           style="stroke:#e69f00;stroke-dasharray:7.5, 12" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_5"
+       transform="translate(-6)">
+      <title
+         id="title510">Scrambling period = 16</title>
+      <g
+         id="g518"
+         transform="translate(-50)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(348.8,677.4)"
+           font-size="18.00"
+           id="g516"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text514">
+            <tspan
+               id="tspan512"
+               style="font-family:Arial">Scrambling period = 16</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g522"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 361.4,671.5 h 65.4 m -305.7,-210.1 1.3,-7.6 5.2,-3.7 2.7,-7.6 2.6,-7.6 1.3,-3.8 1.3,-7.6 1.3,-7.5 5.2,-3.8 1.4,-3.8 2.6,-3.8 10.5,-3.8 3.9,-11.4 1.3,-3.8 1.3,-7.5 5.3,-3.8 1.3,-3.8 2.6,-3.8 1.3,-3.8 1.3,-7.6 1.3,-7.5 1.3,-3.8 2.6,-7.6 2.7,-3.8 2.6,-3.8 2.6,-3.8 1.3,-3.8 2.6,-3.8 2.7,-3.7 2.6,-3.8 2.6,-3.8 1.3,-3.8 3.9,-3.8 1.4,-3.8 2.6,-7.6 1.3,-3.8 5.2,-3.8 2.6,-3.7 11.8,-3.8 5.3,-7.6 5.2,-7.6 1.3,-3.8 1.3,-3.8 1.4,-3.8 1.3,-3.7 5.2,-3.8 5.2,-3.8 6.6,-7.6 1.3,-3.8 5.2,-3.8 6.6,-3.8 2.6,-7.5 1.3,-3.8 1.3,-3.8 1.4,-3.8 1.3,-3.8 6.5,-7.6 5.3,-3.8 1.3,-3.8 5.2,-3.7 5.2,-7.6 7.9,-3.8 10.5,-3.8 1.3,-3.8 3.9,-7.6 22.3,-3.8 3.9,-3.7 5.3,-3.8 17,-3.8 1.3,-3.8 5.3,-3.8 20.9,-3.8 17.1,-3.8 15.7,-3.8 9.2,-3.8 22.2,-3.7 19.7,-3.8 43.2,-3.8 91.8,-3.8 132.3,-3.8"
+           id="path520"
+           inkscape:connector-curvature="0"
+           style="stroke:#f0e442;stroke-dasharray:7.5, 12" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_6">
+      <title
+         id="title525">Model for period = 1</title>
+      <g
+         id="g533"
+         transform="translate(-46)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(716.6,569.4)"
+           font-size="18.00"
+           id="g531"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text529">
+            <tspan
+               id="tspan527"
+               style="font-family:Arial">Model for period = 1</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         fill="none"
+         color="black"
+         stroke="currentColor"
+         stroke-width="3.00"
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         id="g537">
+        <path
+           d="m 723.2,563.5 h 65.4 m -673.5,-98.3 0.1,-3.8 v -3.8 l 0.1,-3.7 0.1,-3.7 0.1,-3.6 0.1,-3.6 0.1,-3.6 v -3.5 l 0.1,-3.5 0.1,-3.4 0.1,-3.5 0.1,-3.3 v -3.4 l 0.1,-3.3 0.1,-3.3 0.1,-3.3 0.1,-3.2 0.1,-3.2 v -3.1 l 0.1,-3.2 0.1,-3 0.1,-3.1 0.1,-3 v -3 l 0.1,-3 0.1,-2.9 0.1,-3 0.1,-2.8 0.1,-2.9 v -2.8 l 0.1,-2.8 0.1,-2.8 0.1,-2.7 0.1,-2.7 V 353 l 0.1,-2.7 0.1,-2.6 0.1,-2.6 0.1,-2.6 0.1,-2.5 v -2.5 l 0.1,-2.5 0.1,-2.5 0.1,-2.5 0.1,-2.4 v -2.4 l 0.1,-2.4 0.1,-2.3 0.1,-2.3 0.1,-2.3 0.1,-2.3 v -2.3 l 0.1,-2.2 0.1,-2.2 0.1,-2.2 0.1,-2.2 v -2.1 l 0.1,-2.1 0.1,-2.1 0.1,-2.1 0.1,-2.1 0.1,-2 v -2 l 0.1,-2 0.1,-2 0.1,-2 0.1,-1.9 0.1,-1.9 v -1.9 l 0.1,-1.9 0.1,-1.9 0.1,-1.8 0.1,-1.8 V 267 l 0.1,-1.7 0.1,-1.8 0.1,-1.8 0.1,-1.7 0.1,-1.7 v -1.7 l 0.1,-1.7 0.1,-1.7 0.1,-1.6 0.1,-1.6 v -1.7 l 0.1,-1.5 0.1,-1.6 0.1,-1.6 0.1,-1.5 0.1,-1.6 V 239 l 0.1,-1.5 0.1,-1.5 0.1,-1.5 0.1,-1.4 v -1.5 l 0.1,-1.4 0.1,-1.4 0.1,-1.4 0.1,-1.4 0.1,-1.4 v -1.3 l 0.1,-1.4 0.1,-1.3 0.1,-1.3 0.1,-1.3 v -1.3 l 0.1,-1.3 0.1,-1.3 0.1,-1.2 0.1,-1.3 0.1,-1.2 v -1.2 l 0.1,-1.2 0.1,-1.2 0.1,-1.2 0.1,-1.1 v -1.2 l 0.1,-1.1 0.1,-1.2 0.1,-1.1 0.1,-1.1 0.1,-1.1 v -1.1 l 0.1,-1.1 0.1,-1 0.1,-1.1 0.1,-1 v -1.1 l 0.1,-1 0.1,-1 0.1,-1 0.1,-1 0.1,-1 v -0.9 l 0.1,-1 0.1,-1 0.1,-0.9 0.1,-0.9 v -1 l 0.1,-0.9 0.1,-0.9 0.1,-0.9 0.1,-0.9 0.1,-0.8 v -0.9 l 0.1,-0.9 0.1,-0.8 0.1,-0.9 0.1,-0.8 v -0.8 l 0.1,-0.8 0.1,-0.9 0.1,-0.8 0.1,-0.7 0.1,-0.8 v -0.8 l 0.1,-0.8 0.1,-0.7 0.1,-0.8 0.1,-0.7 v -0.8 l 0.1,-0.7 0.1,-0.7 0.1,-0.8 0.1,-0.7 0.1,-0.7 v -0.7 l 0.1,-0.7 0.1,-0.6 0.1,-0.7 0.1,-0.7 v -0.6 l 0.1,-0.7 0.1,-0.6 0.1,-0.7 0.1,-0.6 0.1,-0.6 V 151 l 0.1,-0.6 0.1,-0.6 0.1,-0.6 0.1,-0.6 0.1,-0.6 v -0.6 l 0.1,-0.5 0.1,-0.6 0.1,-0.6 0.1,-0.5 v -0.6 l 0.1,-0.6 0.1,-0.5 0.1,-0.5 0.1,-0.6 0.1,-0.5 v -0.5 l 0.1,-0.5 0.1,-0.6 0.1,-0.5 0.1,-0.5 v -0.5 l 0.1,-0.5 0.1,-0.4 0.1,-0.5 0.1,-0.5 0.1,-0.5 V 136 l 0.1,-0.5 0.1,-0.5 0.1,-0.4 0.1,-0.5 v -0.4 l 0.1,-0.5 0.1,-0.4 0.1,-0.4 0.1,-0.4 0.1,-0.5 v -0.4 l 0.1,-0.4 0.1,-0.4 0.1,-0.4 0.1,-0.4 v -0.4 l 0.1,-0.4 0.1,-0.4 0.1,-0.4 0.1,-0.4 0.1,-0.3 v -0.4 l 0.1,-0.4 0.1,-0.4 0.1,-0.3 0.1,-0.4 V 125 l 0.1,-0.4 0.1,-0.3 0.1,-0.4 0.1,-0.3 0.1,-0.4 v -0.3 l 0.1,-0.3 0.1,-0.4 0.1,-0.3 0.1,-0.3 v -0.3 l 0.1,-0.3 0.1,-0.3 0.1,-0.4 0.1,-0.3 0.1,-0.3 v -0.3 l 0.1,-0.3 0.1,-0.3 0.1,-0.2 0.1,-0.3 V 118 l 0.1,-0.3 0.1,-0.3 0.1,-0.3 0.1,-0.2 0.1,-0.3 v -0.3 l 0.1,-0.2 0.1,-0.3 0.1,-0.2 0.1,-0.3 V 115 l 0.1,-0.2 0.1,-0.3 0.1,-0.2 0.1,-0.3 0.1,-0.2 v -0.2 l 0.1,-0.3 0.1,-0.2 0.1,-0.2 0.1,-0.3 v -0.2 l 0.1,-0.2 0.1,-0.2 0.1,-0.3 0.1,-0.2 0.1,-0.2 v -0.2 l 0.1,-0.2 0.1,-0.2 0.1,-0.2 0.1,-0.2 V 110 l 0.1,-0.2 0.1,-0.2 0.1,-0.2 0.1,-0.1 0.1,-0.2 v -0.2 l 0.1,-0.2 0.1,-0.2 0.1,-0.2 0.1,-0.2 0.1,-0.2 v -0.1 l 0.1,-0.2 0.1,-0.2 0.1,-0.2 0.1,-0.1 v -0.2 l 0.1,-0.2 0.1,-0.2 0.1,-0.1 0.1,-0.2 0.1,-0.1 v -0.2 l 0.1,-0.2 0.1,-0.1 0.1,-0.2 0.1,-0.1 v -0.2 l 0.1,-0.1 0.1,-0.2 0.1,-0.1 0.1,-0.2 0.1,-0.1 v -0.2 l 0.1,-0.1 0.1,-0.2 0.1,-0.1 0.1,-0.1 v -0.2 l 0.1,-0.1 0.1,-0.1 0.1,-0.2 0.1,-0.1 0.1,-0.1 v -0.2 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.2 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.2 0.1,-0.1 0.1,-0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.2 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 v -0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 h 0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 h 0.1 v -0.1 l 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 v -0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 v -0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 v -0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 v -0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 v -0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 v -0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 v -0.1 h 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 v -0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 v -0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 l 0.1,-0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 v -0.1 h 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1"
+           id="path535"
+           inkscape:connector-curvature="0"
+           style="stroke:#9400d3" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_7"
+       transform="translate(-6)">
+      <title
+         id="title540">Model for period = 2</title>
+      <g
+         id="g548"
+         transform="translate(-40)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(716.6,596.4)"
+           font-size="18.00"
+           id="g546"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text544">
+            <tspan
+               id="tspan542"
+               style="font-family:Arial">Model for period = 2</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g552"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 729.2,590.5 h 65.4 m -673.4,-125.3 0.1,-3.8 0.2,-3.8 0.2,-3.7 0.1,-3.7 0.2,-3.6 0.1,-3.6 0.2,-3.6 0.2,-3.5 0.1,-3.5 0.2,-3.4 0.2,-3.5 0.1,-3.3 0.2,-3.4 0.2,-3.3 0.1,-3.3 0.2,-3.3 0.1,-3.2 0.2,-3.2 0.2,-3.1 0.1,-3.2 0.2,-3 0.2,-3.1 0.1,-3 0.2,-3 0.2,-3 0.1,-2.9 0.2,-3 0.1,-2.8 0.2,-2.9 0.2,-2.8 0.1,-2.8 0.2,-2.8 0.2,-2.7 0.1,-2.7 0.2,-2.7 0.2,-2.7 0.1,-2.6 0.2,-2.6 0.2,-2.6 0.1,-2.5 0.2,-2.5 0.1,-2.5 0.2,-2.5 0.2,-2.5 0.1,-2.4 0.2,-2.4 0.2,-2.4 0.1,-2.3 0.2,-2.3 0.2,-2.3 0.1,-2.3 0.2,-2.3 0.1,-2.2 0.2,-2.2 0.2,-2.2 0.1,-2.2 0.2,-2.1 0.2,-2.1 0.1,-2.1 0.2,-2.1 0.2,-2.1 0.1,-2 0.2,-2 0.1,-2 0.2,-2 0.2,-2 0.1,-1.9 0.2,-1.9 0.2,-1.9 0.1,-1.9 0.2,-1.9 0.2,-1.8 0.1,-1.8 0.2,-1.9 0.1,-1.7 0.2,-1.8 0.2,-1.8 0.1,-1.7 0.2,-1.7 0.2,-1.7 0.1,-1.7 0.2,-1.7 0.2,-1.6 0.1,-1.6 0.2,-1.7 0.1,-1.5 0.2,-1.6 0.2,-1.6 0.1,-1.5 0.2,-1.6 0.2,-1.5 0.1,-1.5 0.2,-1.5 0.2,-1.5 0.1,-1.4 0.2,-1.5 0.2,-1.4 0.1,-1.4 0.2,-1.4 0.1,-1.4 0.2,-1.4 0.2,-1.3 0.1,-1.4 0.2,-1.3 0.2,-1.3 0.1,-1.3 0.2,-1.3 0.2,-1.3 0.1,-1.3 0.2,-1.2 0.1,-1.3 0.2,-1.2 0.2,-1.2 0.1,-1.2 0.2,-1.2 0.2,-1.2 0.1,-1.1 0.2,-1.2 0.2,-1.1 0.1,-1.2 0.2,-1.1 0.1,-1.1 0.2,-1.1 0.2,-1.1 0.1,-1.1 0.2,-1 0.2,-1.1 0.1,-1 0.2,-1.1 0.2,-1 0.1,-1 0.2,-1 0.1,-1 0.2,-1 0.2,-0.9 0.1,-1 0.2,-1 0.2,-0.9 0.1,-0.9 0.2,-1 0.2,-0.9 0.1,-0.9 0.2,-0.9 0.1,-0.9 0.2,-0.8 0.2,-0.9 0.1,-0.9 0.2,-0.8 0.2,-0.9 0.1,-0.8 0.2,-0.8 0.2,-0.8 0.1,-0.9 0.2,-0.8 0.2,-0.7 0.1,-0.8 0.2,-0.8 0.1,-0.8 0.2,-0.7 0.2,-0.8 0.1,-0.7 0.2,-0.8 0.2,-0.7 0.1,-0.7 0.2,-0.8 0.2,-0.7 0.1,-0.7 0.2,-0.7 0.1,-0.7 0.2,-0.6 0.2,-0.7 0.1,-0.7 0.2,-0.6 0.2,-0.7 0.1,-0.6 0.2,-0.7 0.2,-0.6 0.1,-0.6 0.2,-0.7 0.1,-0.6 0.2,-0.6 0.2,-0.6 0.1,-0.6 0.2,-0.6 0.2,-0.6 0.1,-0.5 0.2,-0.6 0.2,-0.6 0.1,-0.5 0.2,-0.6 0.1,-0.6 0.2,-0.5 0.2,-0.5 0.1,-0.6 0.2,-0.5 0.2,-0.5 0.1,-0.5 0.2,-0.6 0.2,-0.5 0.1,-0.5 0.2,-0.5 0.1,-0.5 0.2,-0.4 0.2,-0.5 0.1,-0.5 0.2,-0.5 0.2,-0.4 0.1,-0.5 0.2,-0.5 0.2,-0.4 0.1,-0.5 0.2,-0.4 0.2,-0.5 0.1,-0.4 0.2,-0.4 0.1,-0.4 0.2,-0.5 0.2,-0.4 0.1,-0.4 0.2,-0.4 0.2,-0.4 0.1,-0.4 0.2,-0.4 0.2,-0.4 0.1,-0.4 0.2,-0.4 0.1,-0.4 0.2,-0.3 0.2,-0.4 0.1,-0.4 0.2,-0.4 0.2,-0.3 0.1,-0.4 0.2,-0.3 0.2,-0.4 0.1,-0.3 0.2,-0.4 0.1,-0.3 0.2,-0.4 0.2,-0.3 0.1,-0.3 0.2,-0.4 0.2,-0.3 0.1,-0.3 0.2,-0.3 0.2,-0.3 0.1,-0.3 0.2,-0.4 0.1,-0.3 0.2,-0.3 0.2,-0.3 0.1,-0.3 0.2,-0.3 0.2,-0.2 0.1,-0.3 0.2,-0.3 0.2,-0.3 0.1,-0.3 0.2,-0.3 0.1,-0.2 0.2,-0.3 0.2,-0.3 0.1,-0.2 0.2,-0.3 0.2,-0.2 0.1,-0.3 0.2,-0.3 0.2,-0.2 0.1,-0.3 0.2,-0.2 0.2,-0.3 0.1,-0.2 0.2,-0.2 0.1,-0.3 0.2,-0.2 0.2,-0.2 0.1,-0.3 0.2,-0.2 0.2,-0.2 0.1,-0.2 0.2,-0.3 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.2,-0.2 0.1,-0.2 0.2,-0.3 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.2,-0.1 0.1,-0.2 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.2,-0.1 0.1,-0.2 0.2,-0.2 0.2,-0.2 0.1,-0.1 0.2,-0.2 0.1,-0.2 0.2,-0.2 0.2,-0.1 0.1,-0.2 0.2,-0.1 0.2,-0.2 0.1,-0.2 0.2,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.2 0.2,-0.1 0.1,-0.2 0.2,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.2 0.2,-0.1 0.1,-0.1 0.2,-0.2 0.2,-0.1 0.1,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.2 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.2 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.2 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 0.2,-0.1 0.2,-0.1 h 0.1 l 0.2,-0.1 0.2,-0.1 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 0.2,-0.1 h 0.1 l 0.2,-0.1 0.2,-0.1 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 h 0.2 l 0.1,-0.1 0.2,-0.1 h 0.2 l 0.1,-0.1 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 l 0.2,-0.1 0.1,-0.1 h 0.2 l 0.1,-0.1 h 0.2 l 0.2,-0.1 h 0.1 l 0.2,-0.1 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 l 0.1,-0.1 h 0.2 l 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 l 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 0.2 l 0.1,-0.1 h 0.2 l 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.1 l 0.2,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 0.2 l 0.1,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.2 l 0.1,-0.1 h 0.2 0.2 l 0.1,-0.1 h 0.2 0.2 l 0.1,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 l 0.2,-0.1 h 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 l 0.1,-0.1 h 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 l 0.2,-0.1 h 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.2 0.2 0.1 0.1"
+           id="path550"
+           inkscape:connector-curvature="0"
+           style="stroke:#009e73" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_8"
+       transform="translate(-6)">
+      <title
+         id="title555">Model for period = 4</title>
+      <g
+         id="g563"
+         transform="translate(-40)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(716.6,623.4)"
+           font-size="18.00"
+           id="g561"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text559">
+            <tspan
+               id="tspan557"
+               style="font-family:Arial">Model for period = 4</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g567"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 729.2,617.5 h 65.4 m -673.3,-152.3 0.4,-3.8 0.3,-3.8 0.3,-3.7 0.3,-3.7 0.4,-3.6 0.3,-3.6 0.3,-3.6 0.3,-3.5 0.4,-3.5 0.3,-3.4 0.3,-3.5 0.4,-3.3 0.3,-3.4 0.3,-3.3 0.3,-3.3 0.4,-3.3 0.3,-3.2 0.3,-3.2 0.4,-3.1 0.3,-3.2 0.3,-3 0.3,-3.1 0.4,-3 0.3,-3 0.3,-3 0.3,-2.9 0.4,-3 0.3,-2.8 0.3,-2.9 0.4,-2.8 0.3,-2.8 0.3,-2.8 0.3,-2.7 0.4,-2.7 0.3,-2.7 0.3,-2.7 0.3,-2.6 0.4,-2.6 0.3,-2.6 0.3,-2.5 0.4,-2.5 0.3,-2.5 0.3,-2.5 0.3,-2.5 0.4,-2.4 0.3,-2.4 0.3,-2.4 0.4,-2.3 0.3,-2.3 0.3,-2.3 0.3,-2.3 0.4,-2.3 0.3,-2.2 0.3,-2.2 0.3,-2.2 0.4,-2.2 0.3,-2.1 0.3,-2.1 0.4,-2.1 0.3,-2.1 0.3,-2.1 0.3,-2 0.4,-2 0.3,-2 0.3,-2 0.3,-2 0.4,-1.9 0.3,-1.9 0.3,-1.9 0.4,-1.9 0.3,-1.9 0.3,-1.8 0.3,-1.8 0.4,-1.9 0.3,-1.7 0.3,-1.8 0.4,-1.8 0.3,-1.7 0.3,-1.7 0.3,-1.7 0.4,-1.7 0.3,-1.7 0.3,-1.6 0.3,-1.6 0.4,-1.7 0.3,-1.5 0.3,-1.6 0.4,-1.6 0.3,-1.5 0.3,-1.6 0.3,-1.5 0.4,-1.5 0.3,-1.5 0.3,-1.5 0.3,-1.4 0.4,-1.5 0.3,-1.4 0.3,-1.4 0.4,-1.4 0.3,-1.4 0.3,-1.4 0.3,-1.3 0.4,-1.4 0.3,-1.3 0.3,-1.3 0.4,-1.3 0.3,-1.3 0.3,-1.3 0.3,-1.3 0.4,-1.2 0.3,-1.3 0.3,-1.2 0.3,-1.2 0.4,-1.2 0.3,-1.2 0.3,-1.2 0.4,-1.1 0.3,-1.2 0.3,-1.1 0.3,-1.2 0.4,-1.1 0.3,-1.1 0.3,-1.1 0.3,-1.1 0.4,-1.1 0.3,-1 0.3,-1.1 0.4,-1 0.3,-1.1 0.3,-1 0.3,-1 0.4,-1 0.3,-1 0.3,-1 0.4,-0.9 0.3,-1 0.3,-1 0.3,-0.9 0.4,-0.9 0.3,-1 0.3,-0.9 0.3,-0.9 0.4,-0.9 0.3,-0.9 0.3,-0.8 0.4,-0.9 0.3,-0.9 0.3,-0.8 0.3,-0.9 0.4,-0.8 0.3,-0.8 0.3,-0.8 0.3,-0.9 0.4,-0.8 0.3,-0.7 0.3,-0.8 0.4,-0.8 0.3,-0.8 0.3,-0.7 0.3,-0.8 0.4,-0.7 0.3,-0.8 0.3,-0.7 0.4,-0.7 0.3,-0.8 0.3,-0.7 0.3,-0.7 0.4,-0.7 0.3,-0.7 0.3,-0.6 0.3,-0.7 0.4,-0.7 0.3,-0.6 0.3,-0.7 0.4,-0.6 0.3,-0.7 0.3,-0.6 0.3,-0.6 0.4,-0.7 0.3,-0.6 0.3,-0.6 0.3,-0.6 0.4,-0.6 0.3,-0.6 0.3,-0.6 0.4,-0.5 0.3,-0.6 0.3,-0.6 0.3,-0.5 0.4,-0.6 0.3,-0.6 0.3,-0.5 0.4,-0.5 0.3,-0.6 0.3,-0.5 0.3,-0.5 0.4,-0.5 0.3,-0.6 0.3,-0.5 0.3,-0.5 0.4,-0.5 0.3,-0.5 0.3,-0.4 0.4,-0.5 0.3,-0.5 0.3,-0.5 0.3,-0.4 0.4,-0.5 0.3,-0.5 0.3,-0.4 0.3,-0.5 0.4,-0.4 0.3,-0.5 0.3,-0.4 0.4,-0.4 0.3,-0.4 0.3,-0.5 0.3,-0.4 0.4,-0.4 0.3,-0.4 0.3,-0.4 0.4,-0.4 0.3,-0.4 0.3,-0.4 0.3,-0.4 0.4,-0.4 0.3,-0.4 0.3,-0.3 0.3,-0.4 0.4,-0.4 0.3,-0.4 0.3,-0.3 0.4,-0.4 0.3,-0.3 0.3,-0.4 0.3,-0.3 0.4,-0.4 0.3,-0.3 0.3,-0.4 0.3,-0.3 0.4,-0.3 0.3,-0.4 0.3,-0.3 0.4,-0.3 0.3,-0.3 0.3,-0.3 0.3,-0.3 0.4,-0.4 0.3,-0.3 0.3,-0.3 0.4,-0.3 0.3,-0.3 0.3,-0.3 0.3,-0.2 0.4,-0.3 0.3,-0.3 0.3,-0.3 0.3,-0.3 0.4,-0.3 0.3,-0.2 0.3,-0.3 0.4,-0.3 0.3,-0.2 0.3,-0.3 0.3,-0.2 0.4,-0.3 0.3,-0.3 0.3,-0.2 0.3,-0.3 0.4,-0.2 0.3,-0.3 0.3,-0.2 0.4,-0.2 0.3,-0.3 0.3,-0.2 0.3,-0.2 0.4,-0.3 0.3,-0.2 0.3,-0.2 0.4,-0.2 0.3,-0.3 0.3,-0.2 0.3,-0.2 0.4,-0.2 0.3,-0.2 0.3,-0.2 0.3,-0.2 0.4,-0.2 0.3,-0.3 0.3,-0.2 0.4,-0.2 0.3,-0.2 0.3,-0.1 0.3,-0.2 0.4,-0.2 0.3,-0.2 0.3,-0.2 0.3,-0.2 0.4,-0.2 0.3,-0.2 0.3,-0.1 0.4,-0.2 0.3,-0.2 0.3,-0.2 0.3,-0.1 0.4,-0.2 0.3,-0.2 0.3,-0.2 0.4,-0.1 0.3,-0.2 0.3,-0.1 0.3,-0.2 0.4,-0.2 0.3,-0.1 0.3,-0.2 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.2 0.4,-0.1 0.3,-0.2 0.3,-0.1 0.3,-0.2 0.4,-0.1 0.3,-0.2 0.3,-0.1 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.1 0.3,-0.2 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.2 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 h 0.3 l 0.3,-0.1 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.3,-0.1 0.4,-0.1 0.3,-0.1 h 0.3 l 0.4,-0.1 0.3,-0.1 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 0.3,-0.1 0.4,-0.1 h 0.3 l 0.3,-0.1 0.3,-0.1 0.4,-0.1 h 0.3 l 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 0.3,-0.1 h 0.3 l 0.4,-0.1 0.3,-0.1 h 0.3 l 0.4,-0.1 h 0.3 l 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 h 0.3 l 0.3,-0.1 h 0.4 l 0.3,-0.1 0.3,-0.1 h 0.4 l 0.3,-0.1 h 0.3 l 0.3,-0.1 h 0.4 l 0.3,-0.1 h 0.3 l 0.3,-0.1 h 0.4 l 0.3,-0.1 h 0.3 l 0.4,-0.1 h 0.3 l 0.3,-0.1 h 0.3 l 0.4,-0.1 h 0.3 l 0.3,-0.1 h 0.4 l 0.3,-0.1 h 0.3 0.3 l 0.4,-0.1 h 0.3 l 0.3,-0.1 h 0.3 l 0.4,-0.1 h 0.3 0.3 l 0.4,-0.1 h 0.3 l 0.3,-0.1 h 0.3 0.4 l 0.3,-0.1 h 0.3 l 0.3,-0.1 h 0.4 0.3 l 0.3,-0.1 h 0.4 0.3 l 0.3,-0.1 h 0.3 l 0.4,-0.1 h 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 l 0.3,-0.1 h 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 l 0.3,-0.1 h 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.3 0.4 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.4 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.4 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.3 0.4 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 0.4 0.3 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 l 0.3,-0.1 h 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 l 0.4,-0.1 h 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 l 0.3,-0.1 h 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.4 0.3 0.3 0.3 0.4 0.3 0.3 0.1"
+           id="path565"
+           inkscape:connector-curvature="0"
+           style="stroke:#56b4e9" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_9"
+       transform="translate(-6)">
+      <title
+         id="title570">Model for period = 8</title>
+      <g
+         id="g578"
+         transform="translate(-40)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(716.6,650.4)"
+           font-size="18.00"
+           id="g576"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text574">
+            <tspan
+               id="tspan572"
+               style="font-family:Arial">Model for period = 8</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g582"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 729.2,644.5 h 65.4 m -672.9,-179.3 0.6,-3.8 0.7,-3.8 0.6,-3.7 0.7,-3.7 0.6,-3.6 0.7,-3.6 0.6,-3.6 0.7,-3.5 0.7,-3.5 0.6,-3.4 0.7,-3.5 0.6,-3.3 0.7,-3.4 0.6,-3.3 0.7,-3.3 0.6,-3.3 0.7,-3.2 0.6,-3.2 0.7,-3.1 0.7,-3.2 0.6,-3 0.7,-3.1 0.6,-3 0.7,-3 0.6,-3 0.7,-2.9 0.6,-3 0.7,-2.8 0.7,-2.9 0.6,-2.8 0.7,-2.8 0.6,-2.8 0.7,-2.7 0.6,-2.7 0.7,-2.7 0.6,-2.7 0.7,-2.6 0.7,-2.6 0.6,-2.6 0.7,-2.5 0.6,-2.5 0.7,-2.5 0.6,-2.5 0.7,-2.5 0.6,-2.4 0.7,-2.4 0.6,-2.4 0.7,-2.3 0.7,-2.3 0.6,-2.3 0.7,-2.3 0.6,-2.3 0.7,-2.2 0.6,-2.2 0.7,-2.2 0.6,-2.2 0.7,-2.1 0.7,-2.1 0.6,-2.1 0.7,-2.1 0.6,-2.1 0.7,-2 0.6,-2 0.7,-2 0.6,-2 0.7,-2 0.7,-1.9 0.6,-1.9 0.7,-1.9 0.6,-1.9 0.7,-1.9 0.6,-1.8 0.7,-1.8 0.6,-1.9 0.7,-1.7 0.6,-1.8 0.7,-1.8 0.7,-1.7 0.6,-1.7 0.7,-1.7 0.6,-1.7 0.7,-1.7 0.6,-1.6 0.7,-1.6 0.6,-1.7 0.7,-1.5 0.7,-1.6 0.6,-1.6 0.7,-1.5 0.6,-1.6 0.7,-1.5 0.6,-1.5 0.7,-1.5 0.6,-1.5 0.7,-1.4 0.7,-1.5 0.6,-1.4 0.7,-1.4 0.6,-1.4 0.7,-1.4 0.6,-1.4 0.7,-1.3 0.6,-1.4 0.7,-1.3 0.6,-1.3 0.7,-1.3 0.7,-1.3 0.6,-1.3 0.7,-1.3 0.6,-1.2 0.7,-1.3 0.6,-1.2 0.7,-1.2 0.6,-1.2 0.7,-1.2 0.7,-1.2 0.6,-1.1 0.7,-1.2 0.6,-1.1 0.7,-1.2 0.6,-1.1 0.7,-1.1 0.6,-1.1 0.7,-1.1 0.7,-1.1 0.6,-1 0.7,-1.1 0.6,-1 0.7,-1.1 0.6,-1 0.7,-1 0.6,-1 0.7,-1 0.6,-1 0.7,-0.9 0.7,-1 0.6,-1 0.7,-0.9 0.6,-0.9 0.7,-1 0.6,-0.9 0.7,-0.9 0.6,-0.9 0.7,-0.9 0.7,-0.8 0.6,-0.9 0.7,-0.9 0.6,-0.8 0.7,-0.9 0.6,-0.8 0.7,-0.8 0.6,-0.8 0.7,-0.9 0.7,-0.8 0.6,-0.7 0.7,-0.8 0.6,-0.8 0.7,-0.8 0.6,-0.7 0.7,-0.8 0.6,-0.7 0.7,-0.8 0.6,-0.7 0.7,-0.7 0.7,-0.8 0.6,-0.7 0.7,-0.7 0.6,-0.7 0.7,-0.7 0.6,-0.6 0.7,-0.7 0.6,-0.7 0.7,-0.6 0.7,-0.7 0.6,-0.6 0.7,-0.7 0.6,-0.6 0.7,-0.6 0.6,-0.7 0.7,-0.6 0.6,-0.6 0.7,-0.6 0.6,-0.6 0.7,-0.6 0.7,-0.6 0.6,-0.5 0.7,-0.6 0.6,-0.6 0.7,-0.5 0.6,-0.6 0.7,-0.6 0.6,-0.5 0.7,-0.5 0.7,-0.6 0.6,-0.5 0.7,-0.5 0.6,-0.5 0.7,-0.6 0.6,-0.5 0.7,-0.5 0.6,-0.5 0.7,-0.5 0.7,-0.4 0.6,-0.5 0.7,-0.5 0.6,-0.5 0.7,-0.4 0.6,-0.5 0.7,-0.5 0.6,-0.4 0.7,-0.5 0.6,-0.4 0.7,-0.5 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.6,-0.5 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.6,-0.3 0.7,-0.4 0.6,-0.4 0.7,-0.4 0.7,-0.3 0.6,-0.4 0.7,-0.3 0.6,-0.4 0.7,-0.3 0.6,-0.4 0.7,-0.3 0.6,-0.4 0.7,-0.3 0.6,-0.3 0.7,-0.4 0.7,-0.3 0.6,-0.3 0.7,-0.3 0.6,-0.3 0.7,-0.3 0.6,-0.4 0.7,-0.3 0.6,-0.3 0.7,-0.3 0.7,-0.3 0.6,-0.3 0.7,-0.2 0.6,-0.3 0.7,-0.3 0.6,-0.3 0.7,-0.3 0.6,-0.3 0.7,-0.2 0.7,-0.3 0.6,-0.3 0.7,-0.2 0.6,-0.3 0.7,-0.2 0.6,-0.3 0.7,-0.3 0.6,-0.2 0.7,-0.3 0.6,-0.2 0.7,-0.3 0.7,-0.2 0.6,-0.2 0.7,-0.3 0.6,-0.2 0.7,-0.2 0.6,-0.3 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.7,-0.3 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.3 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.6,-0.1 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.2 0.7,-0.1 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.1 0.6,-0.2 0.7,-0.2 0.6,-0.2 0.7,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.2 0.6,-0.2 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.6,-0.1 0.7,-0.2 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.2 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.7,-0.1 0.6,-0.2 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 0.6,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 0.6,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 0.7,-0.1 0.6,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 0.6,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 0.6,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.6 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.6 l 0.7,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 l 0.6,-0.1 h 0.7 l 0.6,-0.1 h 0.7 0.7 l 0.6,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.7 l 0.6,-0.1 h 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 l 0.7,-0.1 h 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 0.7 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 l 0.6,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 l 0.7,-0.1 h 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.6 0.7 0.7 0.6 0.7 0.6 0.1"
+           id="path580"
+           inkscape:connector-curvature="0"
+           style="stroke:#e69f00" />
+      </g>
+    </g>
+    <g
+       id="gnuplot_plot_10"
+       transform="translate(-6)">
+      <title
+         id="title585">Model for period = 16</title>
+      <g
+         id="g593"
+         transform="translate(-28)"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <g
+           transform="translate(716.6,677.4)"
+           font-size="18.00"
+           id="g591"
+           style="font-size:18px;font-family:Arial;text-anchor:end;fill:#000000;stroke:none">
+          <text
+             id="text589">
+            <tspan
+               id="tspan587"
+               style="font-family:Arial">Model for period = 16</tspan>
+          </text>
+        </g>
+      </g>
+      <g
+         id="g597"
+         style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter">
+        <path
+           d="m 729.2,671.5 h 65.4 m -672.3,-206.3 1.3,-3.8 1.3,-3.8 1.3,-3.7 1.4,-3.7 1.3,-3.6 1.3,-3.6 1.3,-3.6 1.3,-3.5 1.3,-3.5 1.3,-3.4 1.3,-3.5 1.3,-3.3 1.3,-3.4 1.4,-3.3 1.3,-3.3 1.3,-3.3 1.3,-3.2 1.3,-3.2 1.3,-3.1 1.3,-3.2 1.3,-3 1.3,-3.1 1.3,-3 1.4,-3 1.3,-3 1.3,-2.9 1.3,-3 1.3,-2.8 1.3,-2.9 1.3,-2.8 1.3,-2.8 1.3,-2.8 1.4,-2.7 1.3,-2.7 1.3,-2.7 1.3,-2.7 1.3,-2.6 1.3,-2.6 1.3,-2.6 1.3,-2.5 1.3,-2.5 1.3,-2.5 1.4,-2.5 1.3,-2.5 1.3,-2.4 1.3,-2.4 1.3,-2.4 1.3,-2.3 1.3,-2.3 1.3,-2.3 1.3,-2.3 1.3,-2.3 1.4,-2.2 1.3,-2.2 1.3,-2.2 1.3,-2.2 1.3,-2.1 1.3,-2.1 1.3,-2.1 1.3,-2.1 1.3,-2.1 1.4,-2 1.3,-2 1.3,-2 1.3,-2 1.3,-2 1.3,-1.9 1.3,-1.9 1.3,-1.9 1.3,-1.9 1.3,-1.9 1.4,-1.8 1.3,-1.8 1.3,-1.9 1.3,-1.7 1.3,-1.8 1.3,-1.8 1.3,-1.7 1.3,-1.7 1.3,-1.7 1.3,-1.7 1.4,-1.7 1.3,-1.6 1.3,-1.6 1.3,-1.7 1.3,-1.5 1.3,-1.6 1.3,-1.6 1.3,-1.5 1.3,-1.6 1.3,-1.5 1.4,-1.5 1.3,-1.5 1.3,-1.5 1.3,-1.4 1.3,-1.5 1.3,-1.4 1.3,-1.4 1.3,-1.4 1.3,-1.4 1.4,-1.4 1.3,-1.3 1.3,-1.4 1.3,-1.3 1.3,-1.3 1.3,-1.3 1.3,-1.3 1.3,-1.3 1.3,-1.3 1.3,-1.2 1.4,-1.3 1.3,-1.2 1.3,-1.2 1.3,-1.2 1.3,-1.2 1.3,-1.2 1.3,-1.1 1.3,-1.2 1.3,-1.1 1.3,-1.2 1.4,-1.1 1.3,-1.1 1.3,-1.1 1.3,-1.1 1.3,-1.1 1.3,-1 1.3,-1.1 1.3,-1 1.3,-1.1 1.4,-1 1.3,-1 1.3,-1 1.3,-1 1.3,-1 1.3,-0.9 1.3,-1 1.3,-1 1.3,-0.9 1.3,-0.9 1.4,-1 1.3,-0.9 1.3,-0.9 1.3,-0.9 1.3,-0.9 1.3,-0.8 1.3,-0.9 1.3,-0.9 1.3,-0.8 1.3,-0.9 1.4,-0.8 1.3,-0.8 1.3,-0.8 1.3,-0.9 1.3,-0.8 1.3,-0.7 1.3,-0.8 1.3,-0.8 1.3,-0.8 1.4,-0.7 1.3,-0.8 1.3,-0.7 1.3,-0.8 1.3,-0.7 1.3,-0.7 1.3,-0.8 1.3,-0.7 1.3,-0.7 1.3,-0.7 1.4,-0.7 1.3,-0.6 1.3,-0.7 1.3,-0.7 1.3,-0.6 1.3,-0.7 1.3,-0.6 1.3,-0.7 1.3,-0.6 1.3,-0.6 1.4,-0.7 1.3,-0.6 1.3,-0.6 1.3,-0.6 1.3,-0.6 1.3,-0.6 1.3,-0.6 1.3,-0.5 1.3,-0.6 1.4,-0.6 1.3,-0.5 1.3,-0.6 1.3,-0.6 1.3,-0.5 1.3,-0.5 1.3,-0.6 1.3,-0.5 1.3,-0.5 1.3,-0.5 1.4,-0.6 1.3,-0.5 1.3,-0.5 1.3,-0.5 1.3,-0.5 1.3,-0.4 1.3,-0.5 1.3,-0.5 1.3,-0.5 1.3,-0.4 1.4,-0.5 1.3,-0.5 1.3,-0.4 1.3,-0.5 1.3,-0.4 1.3,-0.5 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.4,-0.5 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.4,-0.4 1.3,-0.3 1.3,-0.4 1.3,-0.4 1.3,-0.4 1.3,-0.3 1.3,-0.4 1.3,-0.3 1.3,-0.4 1.3,-0.3 1.4,-0.4 1.3,-0.3 1.3,-0.4 1.3,-0.3 1.3,-0.3 1.3,-0.4 1.3,-0.3 1.3,-0.3 1.3,-0.3 1.4,-0.3 1.3,-0.3 1.3,-0.4 1.3,-0.3 1.3,-0.3 1.3,-0.3 1.3,-0.3 1.3,-0.3 1.3,-0.2 1.3,-0.3 1.4,-0.3 1.3,-0.3 1.3,-0.3 1.3,-0.3 1.3,-0.2 1.3,-0.3 1.3,-0.3 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.4,-0.3 1.3,-0.3 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.4,-0.2 1.3,-0.3 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.4,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.3 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.4,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.4,-0.1 1.3,-0.2 1.3,-0.2 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.2 1.4,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.2 1.4,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.1 1.4,-0.2 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.2 1.4,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.2 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.4,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.4,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 1.4,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 1.3,-0.1 1.3,-0.1 h 1.4 l 1.3,-0.1 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.4,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 h 1.3 l 1.4,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 h 1.4 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.4,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.4 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.4,-0.1 h 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.4 1.3 l 1.3,-0.1 h 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.4,-0.1 h 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.3,-0.1 h 1.4 1.3 l 1.3,-0.1 h 1.3 1.3 l 1.3,-0.1 h 1.3 1.3 1.3 l 1.3,-0.1 h 1.4 1.3 l 1.3,-0.1 h 1.3 1.3 1.3 l 1.3,-0.1 h 0.1"
+           id="path595"
+           inkscape:connector-curvature="0"
+           style="stroke:#f0e442" />
+      </g>
+    </g>
+    <g
+       fill="none"
+       color="white"
+       stroke="rgb(240, 228,  66)"
+       stroke-width="2.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g600" />
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="2.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g602" />
+    <g
+       fill="none"
+       color="black"
+       stroke="black"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g604" />
+    <g
+       id="g608"
+       transform="translate(-6)"
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter">
+      <path
+         d="M 121,90.1 V 469 H 757.9 V 90.1 Z"
+         id="path606"
+         inkscape:connector-curvature="0"
+         style="stroke:#000000" />
+    </g>
+    <g
+       fill="none"
+       color="black"
+       stroke="currentColor"
+       stroke-width="1.00"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       id="g610" />
+  </g>
+</svg>
