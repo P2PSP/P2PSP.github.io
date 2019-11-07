@@ -401,11 +401,11 @@
 		    <p class="off" style="text-align: left;"><b>LBS (Load Balancing Set)</b>: P2PSP supposes that there is a collection of channels that are broadcasted in parallel.</p>
 		    <p style="text-align: left;"><b>DBS (Data Broadcasting Set)</b>: Designed to be efficient in transmitting a data-stream from a splitter node to peers.</p>
 		    <p class="off" style="text-align: left;"><b>IMS (IP Multicast Set)</b>: Peers in the same local network communicate using IPM group address and port, if available.</p>
+		    <p style="text-align: left;"><b>CIS (Content Integrity Set)</b>: The main goal of this set of rules is to face pollution attacks.</p>
 		    <p class="off" style="text-align: left;"><b>MRS (Massively-lost chunk Recovery Set)</b>: A massively-lost chunk occurs when a chunk is lost in its way from the splitter to a peer.</p>
 		    <p class="off" style="text-align: left;"><b>ACS (Adaptive Capacity Set)</b>: It relaxes the peer’s upload requirements imposed by DBS.</p>
 		    <p style="text-align: left;"><b>NTS (NAT Traversal Set)</b>: It provides peer connectivity for some NAT configurations where DBS can not establish a direct peer communication.</p>
 		    <p class="off" style="text-align: left;"><b>MCS (Multi-Channel Set)</b>: Scalable Video Coding compatibility.</p>
-		    <p style="text-align: left;"><b>CIS (Content Integrity Set)</b>: The main goal of this set of rules is to face pollution attacks.</p>
 		    <div class="ptag">Introduction <b>P2PSP</b> Security Deployment Conclusions Publications </div>
 		</section>
 
@@ -596,7 +596,7 @@
 		<section>
 		    <h1>Strategy based on Trusted Peers</h1>
 		    <h2><b>Problems:</b></h2>
-		    <ul>
+		    <ul style="font-size: 35px; margin-top:10px;">
 			<li class="fragment">
 			    <P>Peers don't know if they are being attacked.</P>
 			</li>
@@ -775,7 +775,7 @@
 
 		<section>
 		    <h1>Theoretical analysis</h1>
-		    <h2><center>Results obtained after a theoretical analysis:<b> $\text{#MPs} <= N/2$</b></center></h2>
+		    <h2><center>Results obtained after a theoretical analysis:<b style="color:#2f6195;"> $\text{#MPs} <= N/2$</b></center></h2>
 		    <img src="images/sss-attacks.png" alt="results sss" height="450" style="margin:5px"/>
 		    <p class="red fragment">Some attacks are fully mitigated with only one Trusted Peer but not others</p>
 		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
@@ -987,7 +987,7 @@
 		      $\Delta^B =  \left\{ \begin{array}{ll}  0&, \text{ if } \forall i, \Delta_i^B = 0 \\ \mathrm{GCD}(\Delta_1^B, \cdots, \Delta_N^B)&, \text{ otherwise} \end{array} \right.$</p>
 		    <br /> <br />
 		    <p class="fragment"><b>$P_j$ with the info received from the Splitter: </b><br />
-		      $\begin{array}{rcl}   \{s(P_j)\} & = & B^0 + j + \{s\in\{0,1,\cdots,n/2-1\}\}; \\   \{s(P_j)\} & += & B^0 + (j + \{s\in\{n/2,1,\cdots, n-1\}\}) \cdot \Delta^B \end{array}$
+		      $\begin{array}{rcl}   \{s(P_j)\} & = & B^0 + j + \{s\in\{0,1,\cdots,n/2-1\}\}; \\   \{s(P_j)\} & += & B^0 + (j + \{s\in\{n/2,\cdots, n-1\}\}) \cdot \Delta^B \end{array}$
 		    </p>
 		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
 		</section>
@@ -1051,6 +1051,7 @@
 		    <h1>Google Chromecast</h1>
 		    <p><b>Google Chromecast (GC)</b> is a device designed as small dongle, which enable users with a mobile device or personal computer to play Internet-streamed audio-visual content on a high-definition television.</p>
 		    <img src="images/chromecast.svg" alt="Chromecast Device" height="200" style="margin:5px"/>
+		    <img src="images/chromecast2.jpg" alt="Chromecast 2 Device" height="200" style="margin:5px"/>
 		    <h2>Low Resources</h2>
 		    <p class="fragment" style="text-align:justify;"><b>1st generation</b> incorporates a Marvel ARMADA 1500 Mini, and <b>512 MB of RAM</b> memory. It also includes <b>hardware for decoding VP8 and H.264</b> video compression formats.</p>
 		    <p class="fragment" style="text-align:justify;"><b>2nd generation</b> GCs use a Marvel ARMADA 1500 Mini Plus, <b>2.5 times faster</b> than the 1st generation. Includes <b>512 MB of RAM</b> memory. It is also able to <b>decode VP9</b>.</p>
@@ -1169,15 +1170,6 @@
 		    </ul>
 		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
 		</section>
-		
-		<section>
-		    <h1>Conclusions</h1>
-		    <h2>Deployment</h2>
-		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> We proposed a <b>straightforward P2P Protocol</b> to ensure an easy implementation, even in resource-constrained devices. Moreover, we identified the main issues and proposed a modular design.</p>
-		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> We proposed a new and simple <b>NAT Traversal algorithm that uses Collaborative Port Prediction</b> in which a low number of source ports is needed for traversal succes.</p>
-		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> We got a implementation of the <b>P2PSP running on embedded devices</b> aiming of avoiding third-party media servers, in order to decrease the cost of the streaming and increase the degree of privacy.</p>
-		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
-		</section>
 
 		<section>
 		    <h1>Conclusions</h1>
@@ -1185,6 +1177,15 @@
 		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> Our experimental results show that <b>using only trusted peers</b> as a defense strategy is not appealing when the number of malicious peers can be large.</p>
 		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> The most severe possible <b>attack is fully mitigated</b> by using SSS. For the remaining attacks, we can improve effectiveness to face them increasing the number of TPs.</p>
 		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> <b>Deterministic quick MP detection</b>, not only in pure SDN environments but also in mixed environments where some peers are on the Internet and others are under managed networks.</p>
+		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
+		</section>
+		
+		<section>
+		    <h1>Conclusions</h1>
+		    <h2>Deployment</h2>
+		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> We proposed a <b>straightforward P2P Protocol</b> to ensure an easy implementation, even in resource-constrained devices. Moreover, we identified the main issues and proposed a modular design.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> We proposed a new and simple <b>NAT Traversal algorithm that uses Collaborative Port Prediction</b> in which a low number of source ports is needed for traversal succes.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> We got a implementation of the <b>P2PSP running on embedded devices</b> aiming of avoiding third-party media servers, in order to decrease the cost of the streaming and increase the degree of privacy.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
 		</section>
 
