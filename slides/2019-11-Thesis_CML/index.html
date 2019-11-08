@@ -595,7 +595,7 @@
 
 		<section>
 		    <h1>Strategy based on Trusted Peers</h1>
-		    <h2><b>Problems:</b></h2>
+		    <h2 style="font-size: 35px;"><b>Problems:</b></h2>
 		    <ul style="font-size: 35px; margin-top:10px;">
 			<li class="fragment">
 			    <P>Peers don't know if they are being attacked.</P>
@@ -697,13 +697,7 @@
 		    <p class="red fragment">Trusted peers as unique defense strategy is not appealing when #MPs is greater than #TPs</p>
 		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
 		</section>
-
-		<section>
-		    <h1>A multi-objective optimization problem</h1>
-		    <p style="font-size:30px; margin-top:10px;">Attackers and defenders have to solve a multi-objective optimization problem and each decision made by one part may have a countermeasure by the other part.</p>
-		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
-		</section>
-
+		
 		<section>
 		    <h1>Shamir Secret Sharing Scheme</h1>
 		    <h2>Distribute secret into N shares useless by themselves, but with any $t$ shares can reconstruct it</h2>
@@ -776,6 +770,7 @@
 		<section>
 		    <h1>Theoretical analysis</h1>
 		    <h2><center>Results obtained after a theoretical analysis:<b style="color:#2f6195;"> $\text{#MPs} <= N/2$</b></center></h2>
+		    <p class="fragment">$t=6$</p>
 		    <img src="images/sss-attacks.png" alt="results sss" height="450" style="margin:5px"/>
 		    <p class="red fragment">Some attacks are fully mitigated with only one Trusted Peer but not others</p>
 		    <div class="ptag">Introduction P2PSP <b>Security</b> Deployment Conclusions Publications </div>
@@ -983,10 +978,10 @@
 		    <h1>Collaborative Port Prediction</h1>
 		    <h2>Proposal</h2>
 		    <br />
-		    <p class="fragment"><b>Splitter with the info collected from monitors peers:</b> <br />
+		    <p class="fragment"><b>Info collected from monitors peers by the Splitter:</b> <br />
 		      $\Delta^B =  \left\{ \begin{array}{ll}  0&, \text{ if } \forall i, \Delta_i^B = 0 \\ \mathrm{GCD}(\Delta_1^B, \cdots, \Delta_N^B)&, \text{ otherwise} \end{array} \right.$</p>
 		    <br /> <br />
-		    <p class="fragment"><b>$P_j$ with the info received from the Splitter: </b><br />
+		    <p class="fragment"><b>Info received from the Splitter by $P_j$: </b><br />
 		      $\begin{array}{rcl}   \{s(P_j)\} & = & B^0 + j + \{s\in\{0,1,\cdots,n/2-1\}\}; \\   \{s(P_j)\} & += & B^0 + (j + \{s\in\{n/2,\cdots, n-1\}\}) \cdot \Delta^B \end{array}$
 		    </p>
 		    <div class="ptag">Introduction P2PSP Security <b>Deployment</b> Conclusions Publications </div>
@@ -1176,15 +1171,15 @@
 		    <h2>Security</h2>
 		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> Our experimental results show that <b>using only trusted peers</b> as a defense strategy is not appealing when the number of malicious peers can be large.</p>
 		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> The most severe possible <b>attack is fully mitigated</b> by using SSS. For the remaining attacks, we can improve effectiveness to face them increasing the number of TPs.</p>
-		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> <b>Deterministic quick MP detection</b>, not only in pure SDN environments but also in mixed environments where some peers are on the Internet and others are under managed networks.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> <b>Reliable time bounded MP detection</b>, not only in pure SDN environments but also in mixed environments where some peers are on the Internet and others are under managed networks.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
 		</section>
 		
 		<section>
 		    <h1>Conclusions</h1>
 		    <h2>Deployment</h2>
-		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> We proposed a <b>straightforward P2P Protocol</b> to ensure an easy implementation, even in resource-constrained devices. Moreover, we identified the main issues and proposed a modular design.</p>
-		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> We proposed a new and simple <b>NAT Traversal algorithm that uses Collaborative Port Prediction</b> in which a low number of source ports is needed for traversal succes.</p>
+		    <p class="fragment" style="margin-bottom:10px; text-align: justify;"><b>1.</b> We proposed a <b>straightforward P2P protocol</b> to ensure an easy implementation, even in resource-constrained devices. Moreover, we identified the main issues and proposed a modular design.</p>
+		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>2.</b> We proposed a new and simple <b>NAT traversal algorithm that uses collaborative port prediction</b> in which a low number of source ports is needed for traversal succes.</p>
 		    <p class="fragment"  style="margin-bottom:10px; text-align: justify;"><b>3.</b> We got a implementation of the <b>P2PSP running on embedded devices</b> aiming of avoiding third-party media servers, in order to decrease the cost of the streaming and increase the degree of privacy.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment <b>Conclusions</b> Publications </div>
 		</section>
@@ -1192,7 +1187,7 @@
 		<section>
 		    <h1>Publications</h1>
 		    <h2>International Journals (JCR)</h2>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-Lopez, C., Mertens, M.B., Gonzalez-Ruiz, V. & Casado, L.G. (2019). Reducing streaming cost while increasing privacy: A case study on a smartphone and chromecast using peer-to-peer technology to skip third-party servers. <b><span style="color:#2f6195;">IEEE Consumer Electronics Magazine</span></b>, DOI: 10.1109/MCE.2018.2880810. 8, 50–55 Impact factor JCR 2018: 3.273. <b>(Q1)</b>.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-Lopez, C., Mertens, M.B., Gonzalez-Ruiz, V. & Casado, L.G. (2019). Reducing streaming cost while increasing privacy: A case study on a smartphone and chromecast using peer-to-peer technology to skip third-party servers. <b><span style="color:#2f6195;">IEEE Consumer Electronics Magazine</span></b>, DOI: 10.1109/MCE.2018.2880810. 8, pp. 50–55 Impact factor JCR 2018: 3.273. <b>(Q1)</b>.</p>
 		    <p style="margin-bottom:10px; text-align: justify;"><b>2. (Under Review)</b> Medina-Lopez, C.,  Casado, L.G, Yuansong Qiao & Gonzalez-Ruiz, V. An SDN Approach to Detect Targeted Attacks in P2P Fully Connected Overlays. <b><span style="color:#2f6195;">International Journal of Information Security</span></b>. Impact Factor JCR 2018: 1.822. 44/107 <b>(Q2)</b>.</p>
 		    <p style="margin-bottom:10px; text-align: justify;"><b>3. (Under Review)</b> Medina-Lopez, C., García-Ortiz J.P, Martinez, J.A, Casado, L.G, Gonzalez-Ruiz, V. NAT Traversal in P2P Networks using Collaborative Port Prediction.  <b><span style="color:#2f6195;">Peer-to-Peer Networking and Applications</span></b>. Impact Factor JCR 2018: 2.397. 70/155 <b>(Q2)</b>.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
@@ -1201,33 +1196,33 @@
 		<section>
 		    <h1>Publications</h1>
 		    <h2>International Conferences with DOI</h2>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V. & Casado, L. (2017). On mitigating pollution and free-riding attacks by Shamir’s Secret Sharing in fully connected P2P systems. In  <b><span style="color:#2f6195;">Wireless Communications and Mobile Computing Conference (IWCMC)</span></b>, 2017 13th International, 711–716, DOI: 10.1109/IWCMC.2017.7986372. IEEE.<b>GGS Rating: B, GGS Class: 3</b>.</p>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Shakirov, I., Casado, L. & González-Ruiz, V. (2017). On pollution attacks in fully connected P2P networks using trusted peers. In  <b><span style="color:#2f6195;">Intelligent Systems Design and Applications</span></b>, 144–153, DOI: 10.1007/978-3-319-53480-0. Springer, Cham, Porto. <b>CORE 2016: rank C.</b></p>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>3.</b> Medina-López, C., Casado, L. & González-Ruiz, V. (2015). Pollution Attacks Detection in the P2PSP Live Streaming System. In International Joint Conference. CISIS 2015.  <b><span style="color:#2f6195;">Advances in Intelligent Systems and Computing</span></b>, 401–410, DOI: 10.1007/978-3-319-19713-5 34. Springer International Publishing. <b>CORE 2014: rank B.</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V. & Casado, L. (2017). On mitigating pollution and free-riding attacks by Shamir’s Secret Sharing in fully connected P2P systems. In  <b><span style="color:#2f6195;">13th International Wireless Communications and Mobile Computing Conference (IWCMC)</span></b>, pp. 711–716, DOI: 10.1109/IWCMC.2017.7986372. IEEE. <b>GGS Rating: B, GGS Class: 3</b>.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Shakirov, I., Casado, L. & González-Ruiz, V. (2017). On pollution attacks in fully connected P2P networks using trusted peers. In  <b><span style="color:#2f6195;">Intelligent Systems Design and Applications</span></b>, pp. 144–153, DOI: 10.1007/978-3-319-53480-0. Springer Internation Publishing, Porto. <b>CORE 2016: rank C.</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>3.</b> Medina-López, C., Casado, L. & González-Ruiz, V. (2015). Pollution Attacks Detection in the P2PSP Live Streaming System. In International Joint Conference. CISIS 2015.  <b><span style="color:#2f6195;">Advances in Intelligent Systems and Computing</span></b>, pp. 401–410, DOI: 10.1007/978-3-319-19713-5 34. Springer International Publishing. <b>CORE 2014: rank B.</b></p>
 		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
 		</section>
 
 		<section>
 		    <h1>Publications</h1>
 		    <h2>Other International Conferences</h2>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C. (2015). Participation as a speaker. In GSoC 2015 Lightning Talks, <b>Google Inc., SunnyVale, CA. USA</b></p>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., García Ortiz, J.P., Naranjo, J., Casado, L. & González-Ruiz, V. (2014). IPTV using P2PSP and HTML5+WebRTC. <b>In 4th W3C Web and TV Workshop</b>, 5, IRT, W3C, Munchen, Germany</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C. (2015). Participation as speaker. In GSoC 2015 Lightning Talks, <b>Google Inc., SunnyVale, CA. USA.</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., García Ortiz, J.P., Naranjo, J., Casado, L. & González-Ruiz, V. (2014). IPTV using P2PSP and HTML5+WebRTC. <b>In 4th W3C Web and TV Workshop</b>, 5, IRT, W3C, Munchen, Germany.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
 		</section>
 
 		<section>
 		    <h1>Publications</h1>
 		    <h2>National Conferences</h2>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V., Casado, L.G., Naranjo, J. & Garcı́a-Ortiz, J.P. (2015). Ejecutando peers p2psp en google chromecast. In Actas VI Jornadas de Computación Empotrada, 123–129, Cordoba</b></p>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Naranjo, J., Garcı́a-Ortiz, J.P., Casado, L.G. & González-Ruiz, V. (2013). Execution of the P2PSP protocol in parallel environments. In G.B. y Alberto A. Del Barrio Garcia, ed., Actas XXIV Jornadas de Paralelismo, 216–221, Madrid</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Medina-López, C., González-Ruiz, V., Casado, L.G., Naranjo, J. & García-Ortiz, J.P. (2015). Ejecutando peers p2psp en google chromecast. In Actas VI Jornadas de Computación Empotrada, pp. 123–129, Cordoba.</b></p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-López, C., Naranjo, J., Garcı́a-Ortiz, J.P., Casado, L.G. & González-Ruiz, V. (2013). Execution of the P2PSP protocol in parallel environments. In G.B. y Alberto A. Del Barrio Garcia, ed., Actas XXIV Jornadas de Paralelismo, pp. 216–221, Madrid.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
 		</section>
 
 		<section>
 		    <h1>Publications</h1>
 		    <h2>Other Publications produced during the elaboration of this Thesis</h2>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Andujar, A. & Medina-López, C. (2019). Exploring New Ways of eTandem and Telecollaboration Through the WebRTC Protocol: Students’ Engagement and Perceptions. International Journal of Emerging Technologies in Learning (iJET), 14, 200–217</p>
-		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-Lopez, C., Casado, L.G. & Gonzalez-Ruiz, V. (2015). P2PSP: un protocolo de red sencillo como herramienta para el aprendizaje basado en proyectos. Experiencias Docentes en Redes de Computadores, 1, 35–41</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>1.</b> Andujar, A. & Medina-López, C. (2019). Exploring New Ways of eTandem and Telecollaboration Through the WebRTC Protocol: Students’ Engagement and Perceptions. <b><span style="color:#2f6195;"> International Journal of Emerging Technologies in Learning (iJET)</span></b>, 14, pp. 200–217.</p>
+		    <p style="margin-bottom:10px; text-align: justify;"><b>2.</b> Medina-Lopez, C., Casado, L.G. & Gonzalez-Ruiz, V. (2015). P2PSP: un protocolo de red sencillo como herramienta para el aprendizaje basado en proyectos. <b><span style="color:#2f6195;">Experiencias Docentes en Redes de Computadores</span></b>, 1, pp. 35–41.</p>
 		    <div class="ptag">Introduction P2PSP Security Deployment Conclusions <b>Publications</b> </div>
 		</section>
 
